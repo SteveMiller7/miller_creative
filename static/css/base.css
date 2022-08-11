@@ -3,18 +3,60 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
     font-family: 'Open Sans', sans-serif;
     color: black;
-    letter-spacing: 3px
-    ;
+    letter-spacing: 3px;
+    background-color: black;
 }
 
-header-image {
-    background: url('') no-repeat center center fixed;
+.navbar {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.cover-image {
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660218696/Miller%20Creative%20Site/Lion_Engraved_ynmui3.png');
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 164px);
+    overflow: hidden;
+    background-color: black;
 }
 
+.header-title {
+    color: white;
+    text-align: right;
+    font-size: 80px;
+    line-height: 100%;
+    padding-right: 1em;
+    margin-top: 60px;
+}
+
+.header-desc {
+    font-size: 16px;
+}
+
+.book-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.book-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+.container1 {
+    height: 60px;
+    background-color: pink;
+}

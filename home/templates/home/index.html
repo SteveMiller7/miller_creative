@@ -4,28 +4,40 @@
 {% block content %}
 
 <!-- header image -->
-
+<!--
 <div class="bg-image d-flex justify-content-center align-items-center cover-image" style="
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1654785469/Background_1_70web_usnvki.jpg');
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660218696/Miller%20Creative%20Site/Lion_Engraved_ynmui3.png');
     height: 100vh;">
 
-    <div class="container hello-g">
+    <div class="container h-100 hello-g">
         <div class="row">
-            <div class="col">
-                <p>Hello<br>Gorgeous</p>
+            <div class="col header-title">
+                <p><strong>AFFORDABLE<br>GRAPHIC<br>DESIGN</strong></p>
             </div>
-            {% if user.is_authenticated %}
-            <div class="col" style="text-align:center; padding-top: 50px;">
-                <button onclick="location.href='{% url 'appointment_bookings' %}'" type="button"
-                        class="btn btn-outline-secondary open-sans text-dark book-button">Appointments</button>
-            </div>
-            {% else %}
-            <div class="col" style="text-align:center; padding-top: 50px;">
-                <button onclick="location.href='{% url 'account_login' %}'" type="button"
-                        class="btn btn-outline-secondary open-sans text-dark book-button">Member Login</button>
-            </div>
-            {% endif %}
+            
         </div>
+    </div>
+</div>
+-->
+
+<div class="container-fluid" style="height: 100vh;">
+    
+    <div class="row align-items-center">
+      <div class="col header-title">
+        <p><strong>AFFORDABLE<br>GRAPHIC<br>DESIGN</strong></p>
+        <p class="header-desc">Clean, competitive deigns for everyone.</p>
+      </div>
+      <div class="col cover-image" style="font-size: 100px; color: white; height: 100vh;">
+      </div>
+      
+    </div>
+    
+  </div>
+
+
+<div class="container1" style="height: 70px;">
+    <div>
+        <p><i class="fasolid fa-person-biking" style="height:30px; width: 30px;"></i>where is my icon???</p>
     </div>
 </div>
 
