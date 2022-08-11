@@ -58,6 +58,92 @@ body {
     font-size: 10px;
 }
 
+.click-box-row {
+    height: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.click-box {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    line-height: 200PX;
+    background-color: BLACK;
+
+}
+
+
+.click_box_child {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+
+.bg-one {background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660229219/Miller%20Creative%20Site/Artboard_1_jczvti.png');}
+.bg-two {background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660229377/Miller%20Creative%20Site/Artboard_1_eeqlhf.png');}
+.bg-three {background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660231390/Miller%20Creative%20Site/Trolley_ogvrkj.png');}
+.bg-four {background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660231661/Miller%20Creative%20Site/my_account_npzkvc.png');}
+
+a {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.click-box:hover .click-box-child, .click-box:focus .click-box-child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.click-box:hover .click-box-child:before, .click-box:focus .click-box-child:before {
+    display: block;
+}
+
+.click-box:hover a, .click-box:focus a {
+    display: block;
+}
+
+.click-box-child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+
+
 .book-button {
     padding-top: 20px;
     padding-bottom: 20px;
