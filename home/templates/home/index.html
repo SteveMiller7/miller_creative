@@ -2,5 +2,31 @@
 {% load static %}
 
 {% block content %}
-<h1 class="display-4 text-success it">It works!</h1>
+
+<!-- header image -->
+
+<div class="bg-image d-flex justify-content-center align-items-center cover-image" style="
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1654785469/Background_1_70web_usnvki.jpg');
+    height: 100vh;">
+
+    <div class="container hello-g">
+        <div class="row">
+            <div class="col">
+                <p>Hello<br>Gorgeous</p>
+            </div>
+            {% if user.is_authenticated %}
+            <div class="col" style="text-align:center; padding-top: 50px;">
+                <button onclick="location.href='{% url 'appointment_bookings' %}'" type="button"
+                        class="btn btn-outline-secondary open-sans text-dark book-button">Appointments</button>
+            </div>
+            {% else %}
+            <div class="col" style="text-align:center; padding-top: 50px;">
+                <button onclick="location.href='{% url 'account_login' %}'" type="button"
+                        class="btn btn-outline-secondary open-sans text-dark book-button">Member Login</button>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
 {% endblock %}

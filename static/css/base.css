@@ -6,8 +6,9 @@ body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: pink;
     font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 3px
     ;
 }
 
@@ -17,6 +18,3 @@ header-image {
     height: calc(100vh - 164px);
 }
 
-.it {
-    color: blue;
-}
