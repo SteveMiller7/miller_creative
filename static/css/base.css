@@ -4,21 +4,25 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    background-color: black;
     letter-spacing: 3px;
     background-color: black;
 }
 
-.navbar {
-    background-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0) !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+    font-size: 15px;
+    color: white;
+    }
+
+.nav-text {
+    color: white !important;
+    font-size: 12px;
 }
 
-
-
 .cover-image {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660218696/Miller%20Creative%20Site/Lion_Engraved_ynmui3.png');
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660299071/Miller%20Creative%20Site/Artboard_1_st0hfb.png');
     height: 100%;
     position: relative;
     background-position: center;
@@ -36,18 +40,6 @@ body {
     padding-right: 1em;
     margin-top: 60px;
     font-weight: 100;
-}
-
-@media only screen and (max-width: 900px) {
-    .header-title {
-        font-size: 55px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .header-title {
-        font-size: 35px;
-    }
 }
 
 .header-desc {
@@ -98,7 +90,7 @@ body {
 .bg-three {background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660231390/Miller%20Creative%20Site/Trolley_ogvrkj.png');}
 .bg-four {background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660231661/Miller%20Creative%20Site/my_account_npzkvc.png');}
 
-a {
+.box-a {
     display: none;
     font-size: 35px;
     color: #ffffff !important;
@@ -110,7 +102,6 @@ a {
     bottom: 0;
     right: 0;
     height: 50px;
-    cursor: pointer;
     /*text-decoration: none;*/
 }
 
@@ -155,10 +146,22 @@ a {
 }
 
 
-
-
-
 .container1 {
     height: 60px;
     background-color: pink;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 900px) {
+    .header-title {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-title {
+        font-size: 35px;
+    }
 }
