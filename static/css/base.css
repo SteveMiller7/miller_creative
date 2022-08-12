@@ -8,6 +8,15 @@ body {
     letter-spacing: 3px;
 }
 
+h6, a {
+    text-decoration: none;
+    color: white;
+}
+
+h6, a:hover {
+    color: #808080;
+}
+
 .spin-wrapper{
     position: fixed;
     top: 30px;
@@ -86,7 +95,7 @@ body {
 }
 
 .click-box-row {
-    height: 180px;
+    height: 300px;
     text-align: center;
     margin: 100px 0;
 }
@@ -193,9 +202,12 @@ body {
 }
 
 
-.container1 {
-    height: 60px;
-    background-color: pink;
+.about-info {
+    height: 400px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
 }
 
 
