@@ -254,6 +254,19 @@ a:hover {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 900px) {
+    .header-title {
+        font-size: 55px;
+    }
+
+    .about-body {
+        padding: 80px 3em;
+    }
+    
+    .rotate {
+        transform: none;
+    }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -261,26 +274,11 @@ a:hover {
         font-size: 35px;
     }
     
-
-    .rotate {
-        transform: none;
-    }
     .about-body {
         padding: 80px 1em;
     }
     .breaker {
         width: 100%;
         height: 200px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .header-title {
-        font-size: 55px;
-    }
-
-    .about-body {
-
-        padding: 80px 3em;
     }
 }
