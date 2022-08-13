@@ -109,12 +109,6 @@ a:hover {
     font-weight: 100;
     font-size: 20px;
 }
-/*
-.rotate {
-
-    transform: rotate(-90deg);
-}
-*/
 
 .about-row-one-image {
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660378486/Miller%20Creative%20Site/graphic_designer_muj0gz.png');
@@ -270,5 +264,9 @@ a:hover {
         background-color: black;
         padding: 15px;
         margin: 15px;
+    }
+    .col-break {
+        height: 40px;
+
     }
 }
