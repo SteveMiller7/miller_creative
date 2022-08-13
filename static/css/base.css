@@ -261,4 +261,14 @@ a:hover {
     .foot-link {
         line-height: 60px;
     }
+
+    .parallax {
+        display: none;
+    }
+
+    .burger {
+        background-color: black;
+        padding: 15px;
+        margin: 15px;
+    }
 }
