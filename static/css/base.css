@@ -96,6 +96,8 @@ a:hover {
     font-size: 16px;
     text-align: center;
     padding-top: 130px;
+    line-height: 30px;
+    margin: 0 10px;
 }
 
 .about {
@@ -251,6 +253,11 @@ a:hover {
     font-weight: 100;
 }
 
+.foot-para {
+    font-size: 14px;
+    font-weight: 100;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -280,5 +287,8 @@ a:hover {
     .breaker {
         width: 100%;
         height: 200px;
+    }
+    .foot-link {
+        line-height: 60px;
     }
 }
