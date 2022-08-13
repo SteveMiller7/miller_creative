@@ -103,18 +103,18 @@ a:hover {
 
 .about {
     text-align: center;
-    padding-right: 40px;
     color: white;
     height: 80px;
     margin-top: 100px;
     font-weight: 100;
     font-size: 20px;
 }
-
+/*
 .rotate {
 
     transform: rotate(-90deg);
 }
+*/
 
 .about-row-one-image {
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660378486/Miller%20Creative%20Site/graphic_designer_muj0gz.png');
@@ -122,7 +122,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 300px;
+    height: 240px;
 }
 
 .about-row-two {
@@ -136,6 +136,11 @@ a:hover {
     background-color: black;
     font-size: 14px;
     padding: 80px 80px;
+}
+
+.about-para-box {
+    padding-top: 60px;
+
 }
 
 .parallax {
@@ -198,136 +203,6 @@ a:hover {
   }
 
 
-/*
-.featured-one {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660393676/Miller%20Creative%20Site/strathearn_wood_onkfev.png');
-
-    height: 200px;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.featured-two {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660229377/Miller%20Creative%20Site/Artboard_1_eeqlhf.png');
-    height: 200px;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    
-}
-
-.featured-three {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660230465/Miller%20Creative%20Site/Artboard_1_l8tqsh.png');
-    height: 200px;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-*/
-
-/*
-.click-box-row {
-    height: auto;
-    text-align: center;
-    margin: 100px 0;
-}
-
-.click-box {
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100%;
-    line-height: 200PX;
-
-}
-
-
-.click_box_child {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-
-.bg-one {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660229219/Miller%20Creative%20Site/Artboard_1_jczvti.png');
-}
-
-.bg-two {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660229377/Miller%20Creative%20Site/Artboard_1_eeqlhf.png');
-}
-
-.bg-three {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660231390/Miller%20Creative%20Site/Trolley_ogvrkj.png');
-}
-
-.bg-four {
-    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660231661/Miller%20Creative%20Site/my_account_npzkvc.png');
-}
-
-.box-a {
-    display: none;
-    font-size: 20px;
-    color: #ffffff !important;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 50px;
-    text-decoration: none;
-}
-
-.click-box:hover .click-box-child,
-.click-box:focus .click-box-child {
-    transition: transform .9s;
-    
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-.click-box:hover .click-box-child:before,
-.click-box:focus .click-box-child:before {
-    display: block;
-}
-
-.click-box:hover .box-a,
-.click-box:focus .box-a {
-    display: block;
-}
-
-.click-box-child:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(52, 73, 94, 0.75);
-}
-*/
-
 .foot-link-row {
     padding-bottom: 70px;
 }
@@ -366,12 +241,21 @@ a:hover {
     }
 
     .about-body {
-        padding: 80px 1em;
+        padding: 80px .1em;
     }
 
     .breaker {
         width: 100%;
-        height: 200px;
+        height: 250px;
+    }
+
+    .breaker div {
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+        padding: 50px 10px;
     }
 
     .foot-link {
