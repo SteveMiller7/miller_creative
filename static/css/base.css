@@ -53,18 +53,6 @@ h6, a:hover {
     font-size: 12px;
 }
 
-.parallax {
-
-    background-image: url("https://res.cloudinary.com/millermayhem/image/upload/v1660312325/Miller%20Creative%20Site/logo_board_ezudpz.png");
-    min-height: 300px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .cover-image {
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660299071/Miller%20Creative%20Site/Artboard_1_st0hfb.png');
     height: 100%;
@@ -74,10 +62,11 @@ h6, a:hover {
     background-size: cover;
     overflow: hidden;
     background-color: black;
+    padding-bottom: 100px;
 }
 
 .header-title {
-    color: white;
+    color: red;
     text-align: right;
     font-size: 80px;
     line-height: 100%;
@@ -93,6 +82,38 @@ h6, a:hover {
 .header-sub {
     font-size: 10px;
 }
+
+.breaker {
+    height: 120px;
+    background-color: black;
+    
+}
+
+.about {
+    text-align: center;
+    color: aquamarine;
+    height: 80px;
+    background-color: black;
+}
+
+.about-body {
+    font-weight: 200;
+    color: aqua;
+
+}
+
+.parallax {
+
+    background-image: url("https://res.cloudinary.com/millermayhem/image/upload/v1660312325/Miller%20Creative%20Site/logo_board_ezudpz.png");
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .click-box-row {
     height: 300px;
