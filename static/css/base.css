@@ -29,6 +29,10 @@ a:hover {
     padding-top: 15px;
 }
 
+.top-icon {
+    margin: 0 40px;
+}
+
 .spin-wrapper {
     position: fixed;
     top: 30px;
