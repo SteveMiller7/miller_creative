@@ -21,11 +21,19 @@ a:hover {
     font-weight: bold;
 }
 
+.top-bar {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
 .spin-wrapper {
     position: fixed;
     top: 30px;
     left: 30px;
-    z-index: 99;
+    z-index: 999999;
 
 }
 
