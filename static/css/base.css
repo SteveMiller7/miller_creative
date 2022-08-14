@@ -5,8 +5,12 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
     letter-spacing: 3px;
+}
+
+P {
+    color: white;
 }
 
 h6,
@@ -22,7 +26,7 @@ a:hover {
 }
 
 .top-bar {
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     height: 50px;
     text-align: center;
@@ -30,7 +34,9 @@ a:hover {
 }
 
 .top-icon {
-    margin: 0 40px;
+    margin: 0 80px;
+    font-size: 13px;
+    letter-spacing: 0;
 }
 
 .spin-wrapper {
