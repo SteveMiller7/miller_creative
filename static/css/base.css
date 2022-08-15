@@ -73,6 +73,7 @@ a:hover {
 .nav-text {
     color: white !important;
     font-size: 12px;
+    padding-top: 20px;
 }
 
 .cover-image {
