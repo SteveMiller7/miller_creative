@@ -3,4 +3,5 @@ from .models import FeaturedCompany, FeaturedPicture
 
 
 admin.site.register(FeaturedCompany)
+admin.site.register(FeaturedPicture)
 
