@@ -17,7 +17,8 @@ class FeaturedCompany(models.Model):
 class Category(models.Model):
 
     #This changes the name in the admin panel from Categorys
-    verbose_name_plural = 'Categories' 
+    class Meta:
+        verbose_name_plural = 'Categories' 
 
     name = models.CharField(max_length=254)
 
