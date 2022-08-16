@@ -15,6 +15,10 @@ class FeaturedCompany(models.Model):
 
 
 class Category(models.Model):
+
+    #This changes the name in the admin panel from Categorys
+    verbose_name_plural = 'Categories' 
+
     name = models.CharField(max_length=254)
 
     def __str__(self):
@@ -32,12 +36,6 @@ class Product(models.Model):
         (5, '5000'),
     )
 
-    SIZE_LIST = (
-        (0, 'A6'),
-        (1, 'A5'),
-        (2, 'A5'),
-    )
-
     LAMINATE_LIST = (
         (0, 'Matt'),
         (1, 'Gloss'),
@@ -50,7 +48,6 @@ class Product(models.Model):
     description = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
     quantity = models.IntegerField(choices=QUANTITY_LIST)
-    size = models.IntegerField(choices=SIZE_LIST)
     laminate = models.IntegerField(choices=LAMINATE_LIST)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
