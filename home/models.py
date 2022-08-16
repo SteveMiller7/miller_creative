@@ -7,6 +7,10 @@ class FeaturedPicture(models.Model):
 
 
 class FeaturedCompany(models.Model):
+
+    class Meta :
+        verbose_name_plural = 'Featured companies' 
+
     picture = models.ForeignKey('FeaturedPicture', on_delete=models.CASCADE)
     name = models.CharField(max_length=200, null=True, blank=True)
     location = models.CharField(max_length=50, null=True, blank=True)

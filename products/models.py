@@ -25,6 +25,15 @@ class Product(models.Model):
         (5, '5000'),
     )
 
+    SIZE_LIST = (
+        (0, 'A5'),
+        (1, 'A6'),
+        (2, 'A4'),
+        (3, '148mm x 148mm'),
+        (3, 'DL'),
+
+    )
+
     LAMINATE_LIST = (
         (0, 'Matt'),
         (1, 'Gloss'),
