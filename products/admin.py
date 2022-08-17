@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Product, Category
 
+
 class ProductAdmin(admin.ModelAdmin):
 
     list_display = (
@@ -11,6 +12,7 @@ class ProductAdmin(admin.ModelAdmin):
         'quantity',
         'laminate',
         'price',
+        'image_url',
         'image',
     )
 
@@ -29,3 +31,34 @@ admin.site.register(Category, CategoryAdmin)
 
 
 
+"""
+class CardsAdmin(admin.ModelAdmin):
+
+    list_display = (
+        'sku',
+        'name',
+        'description',
+        'quantity',
+        'laminate',
+        'price',
+        'image',
+    )
+
+    ordering = ('sku',)
+
+
+class FlyersAdmin(admin.ModelAdmin):
+
+    list_display = (
+        'sku',
+        'name',
+        'description',
+        'size',
+        'quantity',
+        'price',
+        'image',
+    )
+
+    ordering = ('sku',)
+
+    """

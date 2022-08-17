@@ -127,7 +127,7 @@
               <a class="nav-link active nav-text" aria-current="page" href="{% url 'home' %}">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="#">SHOP</a>
+              <a class="nav-link active nav-text" aria-current="page" href="{% url 'products'%}">SHOP</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active nav-text" aria-current="page" href="{% url 'featured' %}">FEATURED WORK</a>
@@ -136,9 +136,6 @@
               <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT</a>
             </li>
             {% if user.is_authenticated %}
-            <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="#">SHOP</a>
-            </li>
             <li class="nav-item">
               <a href="" class="dropdown-item nav-text">MY ACCOUNT</a>
             </li>
@@ -198,7 +195,7 @@
 
             <div class="col-md-2">
               <h6 class="foot-link">
-                <a href="#!">SHOP</a>
+                <a href="{% url 'products'%}">SHOP</a>
               </h6>
             </div>
 

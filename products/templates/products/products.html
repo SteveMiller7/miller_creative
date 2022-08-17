@@ -7,10 +7,42 @@
 </div>
 
 
-<div class="container">
-    <di class="row">
-        <div class="col">
-            {{ products }}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col text-center">
+            <h2 class="logo-font">Products</h2>
+            <hr class="mb-1">
+        </div>
+    </div>
+    <div class="row">
+        <div class="product-container col-10 offest-1">
+            <div class="row mt-1 mb-2">
+            </div>
+            <div class="row" style="padding-top: 50px;">
+                {% for product in products %}
+                <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3" style="padding-left: 60px;">
+                    <div class="card-dark h-100 border-0" style="font-size: 14px; text-align: center;">
+                        {% if product.image %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                alt="{{ product.name }}">
+                        </a>
+                        {% endif %}
+                        <div class="card-body">
+                            <p class="mb-0">{{ product.name }}</p>
+                        </div>
+                        <div class="card-footer pt-0 border-0 text-left">
+
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

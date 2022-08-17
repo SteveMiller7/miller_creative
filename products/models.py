@@ -44,13 +44,79 @@ class Product(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
-    price = models.DecimalField(max_digits=6, decimal_places=2)
     size = models.IntegerField(choices=SIZE_LIST, null=True, blank=True)
-    quantity = models.IntegerField(choices=QUANTITY_LIST, null=True, blank=True)
     laminate = models.IntegerField(choices=LAMINATE_LIST, null=True, blank=True)
+    quantity = models.IntegerField(choices=QUANTITY_LIST, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+    price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True, default='0.00')
 
     def __str__(self):
         return self.name
 
+"""
+class Cards(models.Model):
+
+    QUANTITY_LIST = (
+        (0, '100'),
+        (1, '250'),
+        (2, '500'),
+        (3, '1000'),
+        (4, '2500'),
+        (5, '5000'),
+    )
+
+    LAMINATE_LIST = (
+        (0, 'Matt'),
+        (1, 'Gloss'),
+        (2, 'Soft Touch'),
+    )
+
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    sku = models.CharField(max_length=254, null=True, blank=True)
+    name = models.CharField(max_length=254)
+    description = models.TextField()
+    quantity = models.IntegerField(choices=QUANTITY_LIST, null=True, blank=True)
+    laminate = models.IntegerField(choices=LAMINATE_LIST, null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+    price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+
+
+    def __str__(self):
+        return self.name
+
+
+class Flyers(models.Model):
+
+    QUANTITY_LIST = (
+        (0, '100'),
+        (1, '250'),
+        (2, '500'),
+        (3, '1000'),
+        (4, '2500'),
+        (5, '5000'),
+    )
+
+    SIZE_LIST = (
+        (0, 'A5'),
+        (1, 'A6'),
+        (2, 'A4'),
+        (3, '148mm x 148mm'),
+        (3, 'DL'),
+
+    )
+
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    sku = models.CharField(max_length=254, null=True, blank=True)
+    name = models.CharField(max_length=254)
+    description = models.TextField()
+    size = models.IntegerField(choices=SIZE_LIST, null=True, blank=True)
+    quantity = models.IntegerField(choices=QUANTITY_LIST, null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+    price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+"""
