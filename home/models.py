@@ -2,30 +2,28 @@ from django.db import models
 from cloudinary.models import CloudinaryField
 
 
-class FeaturedPicture(models.Model):
-    picture = CloudinaryField('image', default='placeholder')
-
 
 class FeaturedCompany(models.Model):
 
     class Meta :
         verbose_name_plural = 'Featured companies' 
 
-    picture = models.ForeignKey('FeaturedPicture', on_delete=models.CASCADE)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
     name = models.CharField(max_length=200, null=True, blank=True)
     location = models.CharField(max_length=50, null=True, blank=True)
     date = models.CharField(max_length=20, null=True, blank=True)
     description = models.CharField(max_length=300, null=True, blank=True)
 
+    def __str__(self):
+        return self.name
 
-class ShopPicture(models.Model):
-    picture = CloudinaryField('image')
-    
 
 class ShopDescription(models.Model):
 
     class Meta :
         verbose_name_plural = 'Shop Description'
 
-    picture = models.ForeignKey(ShopPicture, on_delete=models.CASCADE)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
     description = models.CharField(max_length=2000, null=True, blank=True)

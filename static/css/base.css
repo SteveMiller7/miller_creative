@@ -181,16 +181,16 @@ a:hover {
 
 .feature-div {
     position: relative;
-  }
-  
-  .feature-image {
+}
+
+.feature-image {
     width: 100%;
     height: 250px;
     object-fit: cover;
     overflow: hidden;
-  }
-  
-  .feature-overlay {
+}
+
+.feature-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -201,13 +201,13 @@ a:hover {
     opacity: 0;
     transition: .9s ease;
     background-color: rgba(0, 0, 0, .7);
-  }
-  
-  .feature-div:hover .feature-overlay {
+}
+
+.feature-div:hover .feature-overlay {
     opacity: 1;
-  }
-  
-  .feature-text {
+}
+
+.feature-text {
     font-size: 16px;
     color: white;
     font-size: 16px;
@@ -218,7 +218,7 @@ a:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 
 .foot-link-row {
@@ -233,6 +233,18 @@ a:hover {
 .foot-para {
     font-size: 14px;
     font-weight: 100;
+}
+
+.shop-category {
+
+    height: 200px;
+    width: 300px;
+    margin: 40px;
+    margin-top: 90px;
+    text-align: center;
+    border: white solid;
+    
+
 }
 
 .card-custom-image {
@@ -269,7 +281,7 @@ a:hover {
         top: 10px;
         left: 10px;
         z-index: 999999;
-    
+
     }
 
     #spin-logo {
@@ -308,6 +320,7 @@ a:hover {
         padding: 15px;
         margin: 15px;
     }
+
     .col-break {
         height: 40px;
 

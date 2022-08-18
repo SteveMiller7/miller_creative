@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
-from .models import FeaturedCompany, FeaturedPicture, ShopDescription
+from .models import FeaturedCompany, ShopDescription
 
 def Index(request):
     """ A view to return the index page """
