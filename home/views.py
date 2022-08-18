@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
-from .models import FeaturedCompany, ShopDescription
+from .models import FeaturedCompany, ShopDescription, FlyerDescription
 
 def Index(request):
     """ A view to return the index page """
@@ -19,3 +19,7 @@ class Featured(generic.ListView):
 class ShopDesc(generic.ListView):
     model = ShopDescription
     template_name = 'shop.html'
+
+class FlyerSize(generic.ListView):
+    model = FlyerDescription
+    template_name = 'flyer_sizes.html'

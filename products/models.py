@@ -1,31 +1,6 @@
 from django.db import models
 from cloudinary.models import CloudinaryField
 
-"""
-QUANTITY_LIST = (
-        ('100', '100'),
-        ('250', '250'),
-        ('500', '500'),
-        ('1000', '1000'),
-        ('2000', '2500'),
-        ('5000', '5000'),
-    )
-
-SIZE_LIST = (
-    (0, 'A5'),
-    (1, 'A6'),
-    (2, 'A4'),
-    (3, '148mm x 148mm'),
-    (3, 'DL'),
-
-)
-
-LAMINATE_LIST = (
-    (0, 'Matt'),
-    (1, 'Gloss'),
-    (2, 'Soft Touch'),
-)
-"""
 
 class Category(models.Model):
 
