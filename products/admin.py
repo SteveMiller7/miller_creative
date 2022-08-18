@@ -10,7 +10,6 @@ class ProductAdmin(admin.ModelAdmin):
         'description',
         'size',
         'quantity',
-        'laminate',
         'price',
         'image_url',
         'image',
