@@ -235,6 +235,12 @@ a:hover {
     font-weight: 100;
 }
 
+.card-custom-image {
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 
 /* MEDIA QUERIES */
 
