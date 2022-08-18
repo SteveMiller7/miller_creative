@@ -16,3 +16,16 @@ class FeaturedCompany(models.Model):
     location = models.CharField(max_length=50, null=True, blank=True)
     date = models.CharField(max_length=20, null=True, blank=True)
     description = models.CharField(max_length=300, null=True, blank=True)
+
+
+class ShopPicture(models.Model):
+    picture = CloudinaryField('image')
+    
+
+class ShopDescription(models.Model):
+
+    class Meta :
+        verbose_name_plural = 'Shop Description'
+
+    picture = models.ForeignKey(ShopPicture, on_delete=models.CASCADE)
+    description = models.CharField(max_length=2000, null=True, blank=True)
