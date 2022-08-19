@@ -83,15 +83,13 @@
               href="{% url 'view_bag' %}">
               <div class="text-center">
                 <div><i class="fas fa-cart-shopping top-icon" style="color: white;"></i></div>
-                <p class="top-icon">BAG</p>
-                <!--
-                <p class="my-0" style="color: white;">
+                <p class="my-0 top-icon" style="color: white;">
                   {% if grand_total %}
                   ${{ grand_total|floatformat:2 }}
                   {% else %}
                   $0.00
                   {% endif %}
-                </p> -->
+                </p> 
               </div>
             </a>
           </li>
@@ -173,8 +171,8 @@
     <footer class="text-center text-white">
       <div class="container">
         <div class="row text-center d-flex justify-content-center pt-5 foot-link-row">
-          <div class="col-md-2 link-nav">
-            <h6 class="foot-link opacity-background">
+          <div class="col-md-2 link-nav opacity-background">
+            <h6 class="foot-link">
               <a href="{% url 'home' %}">HOME</a>
             </h6>
           </div>
