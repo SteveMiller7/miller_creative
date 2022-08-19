@@ -279,9 +279,9 @@ a:hover {
 }
 
 .bag-background {
-    text-align: top;
     background-image: url(https://res.cloudinary.com/millermayhem/image/upload/v1660927200/Miller%20Creative%20Site/paper-bag_i24t5b.jpg);
     background-repeat: no-repeat;
+    background-position: 0 -300px;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
