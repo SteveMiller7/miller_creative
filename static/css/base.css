@@ -9,6 +9,17 @@ body {
     letter-spacing: 3px;
 }
 
+.p-font {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    max-width: 1000px;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 P {
     color: white;
 }
@@ -76,10 +87,13 @@ a:hover {
     padding-top: 20px;
 }
 
+/*
 .top-spacer {
     width: 100%;
     height: 200px;
+    opacity: 0;
 }
+*/
 
 .cover-image {
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660299071/Miller%20Creative%20Site/Artboard_1_st0hfb.png');
@@ -241,15 +255,26 @@ a:hover {
     width: 300px;
     margin: 40px;
     margin-top: 90px;
-    text-align: center;
-    border: white solid;
-    
+    text-align: center;    
 
 }
 
 .card-custom-image {
     height: 250px;
     object-fit: cover;
+    overflow: hidden;
+}
+
+.opacity-background {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.shop-background {
+    text-align: center;
+    background-image: url(https://res.cloudinary.com/millermayhem/image/upload/v1660895587/Miller%20Creative%20Site/pencils-BW_eqnwdt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     overflow: hidden;
 }
 

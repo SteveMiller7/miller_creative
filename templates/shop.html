@@ -5,40 +5,43 @@
 
 <div class="top-spacer">
 </div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h3>PRODUCTS</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis tenetur facere
-                dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum asperiores,
-                aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia possimus
-                eveniet ipsum delectus, exercitationem vel. Officia repudiandae omnis error repellendus facilis? A!</p>
+<div class="shop-background" style="padding-bottom: 100px;">
+    <div class="container" style="padding-top: 150px;">
+        <div class="row opacity-background" style="padding: 40px 0;">
+            <div class="col-12 text-center" >
+                <h3 style="padding-bottom: 40px;">PRODUCTS</h3>
+                <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis tenetur facere
+                    dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum asperiores,
+                    aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia possimus
+                    eveniet ipsum delectus, exercitationem vel. Officia repudiandae omnis error repellendus facilis? A!
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="container-fluid" style="text-align: center; display: flex;
+    <div class="container-fluid" style="text-align: center; display: flex;
 align-items: center; justify-content: center">
-    <div class="row">
-        <a href="{% url 'products' %}?category=Logo" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">LOGO DESIGN</p>
-            </strong>
-        </a>
-        <a href="{% url 'products' %}?category=Cards" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">BUSINESS CARDS</p>
-            </strong>
-        </a>
-        <a href="{% url 'flyers' %}" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">FLYERS</p>
-            </strong>
-        </a>
-    </div>
+        <div class="row ">
+            <a href="{% url 'products' %}?category=Logo" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p class="p-font" style="padding-top: 90px;">LOGO DESIGN</p>
+                </strong>
+            </a>
+            <a href="{% url 'products' %}?category=Cards" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p class="p-font" style="padding-top: 90px;">BUSINESS CARDS</p>
+                </strong>
+            </a>
+            <a href="{% url 'flyers' %}" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p class="p-font" style="padding-top: 90px;">FLYERS</p>
+                </strong>
+            </a>
+        </div>
 
+    </div>
 </div>
+
 
 
 {% endblock %}
