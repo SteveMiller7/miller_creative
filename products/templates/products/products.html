@@ -3,46 +3,41 @@
 
 {% block content %}
 
-<div class="top-spacer">
-</div>
 
 
 
-<div class="container shop-background" style="padding-top: 150px;">
-    
-    <div class="row">
-        <div class="container">
-            <div class="row mt-1 mb-2">
-            </div>
-            <div class="row" style="padding-top: 50px; justify-content: center;">
-                {% for product in products %}
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" >
-                    <div class="card-dark" style="font-size: 14px; text-align: center; padding-bottom: 80px;">
-                        {% if product.image %}
-                        <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                        </a>
-                        {% else %}
-                        <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
-                                alt="{{ product.name }}">
-                        </a>
-                        {% endif %}
-                        <div class="card-body mt-3">
-                            <p class="mb-0">{{ product.name }}</p>
-                        </div>
-                        <div class="card-footer pt-0 border-0 text-left">
+<div class="shop-background">
+    <div class="container" style="padding-top: 150px; max-width: 1050px;">
 
-                        </div>
+
+        
+        <div class="row" style="padding-top: 50px; justify-content: center;">
+            {% for product in products %}
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="card-dark" style="font-size: 14px; text-align: center; padding-bottom: 80px;">
+                    {% if product.image %}
+                    <a href="{% url 'product_detail' product.id %}">
+                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </a>
+                    {% else %}
+                    <a href="{% url 'product_detail' product.id %}">
+                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                    </a>
+                    {% endif %}
+                    <div class="card-body mt-3">
+                        <p class="mb-0">{{ product.name }}</p>
+                    </div>
+                    <div class="card-footer pt-0 border-0 text-left">
+
                     </div>
                 </div>
-                
-                {% endfor %}
             </div>
+
+            {% endfor %}
         </div>
     </div>
-</div>
 
-<hr>
+
+
 
 {% endblock %}

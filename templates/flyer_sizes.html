@@ -6,49 +6,51 @@
 <div class="top-spacer">
 </div>
 
-<div class="container shop-background">
-    <div class="row" >
-        <div class="col-12 text-center">
-            <h3>FLYER DESIGN AND PRINT</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis tenetur facere
-                dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum asperiores,
-                aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia possimus
-                eveniet ipsum delectus, exercitationem vel. Officia repudiandae omnis error repellendus facilis? A!</p>
+<div class="shop-background">
+    <div class="container" style="padding-top: 150px; max-width: 1050px;">
+        <div class="row" style="padding: 40px 0; background-color: black;">
+            <div class="col-12 text-center">
+                <h3>FLYER DESIGN AND PRINT</h3>
+                <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis tenetur facere
+                    dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum asperiores,
+                    aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia possimus
+                    eveniet ipsum delectus, exercitationem vel. Officia repudiandae omnis error repellendus facilis? A!
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="container-fluid" style="text-align: center; display: flex;
-align-items: center; justify-content: center">
-    <div class="row" style="justify-content: center;">
-        <a href="{% url 'products' %}?category=FlyA5" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">A5</p>
-            </strong>
-        </a>
-        <a href="{% url 'products' %}?category=FlyA6" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">A6</p>
-            </strong>
-        </a>
-        <a href="{% url 'products' %}?category=FlyA4" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">A4</p>
-            </strong>
-        </a>
-        <a href="{% url 'products' %}?category=Fly148x148" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">148MM X 148MM</p>
-            </strong>
-        </a>
-        <a href="{% url 'products' %}?category=FlyDL" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category">
-            <strong>
-                <p style="padding-top: 90px;">DL</p>
-            </strong>
-        </a>
+    <div class="container-fluid" style=" display: flex; align-items: center; justify-content: center">
+        <div class="row" style="justify-content: center">
+            <a href="{% url 'products' %}?category=FlyA5" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p style="padding-top: 90px;">A5</p>
+                </strong>
+            </a>
+            <a href="{% url 'products' %}?category=FlyA6" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p style="padding-top: 90px;">A6</p>
+                </strong>
+            </a>
+            <a href="{% url 'products' %}?category=FlyA4" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p style="padding-top: 90px;">A4</p>
+                </strong>
+            </a>
+            <a href="{% url 'products' %}?category=Fly148x148"
+                class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p style="padding-top: 90px;">148MM X 148MM</p>
+                </strong>
+            </a>
+            <a href="{% url 'products' %}?category=FlyDL" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+                <strong>
+                    <p style="padding-top: 90px;">DL</p>
+                </strong>
+            </a>
+        </div>
+
     </div>
 
-</div>
 
-
-{% endblock %}
+    {% endblock %}

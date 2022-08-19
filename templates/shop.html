@@ -5,12 +5,14 @@
 
 <div class="top-spacer">
 </div>
-<div class="shop-background" style="padding-bottom: 100px;">
-    <div class="container" style="padding-top: 150px;">
-        <div class="row opacity-background" style="padding: 40px 0;">
-            <div class="col-12 text-center" >
-                <h3 style="padding-bottom: 40px;">PRODUCTS</h3>
-                <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis tenetur facere
+
+<div class="shop-background">
+    <div class="container" style="padding-top: 150px; max-width: 1050px;">
+        <div class="row" style="padding: 40px 0; background-color: black;">
+            <div class="col-12 text-center">
+                <h3>PRODUCTS</h3>
+                <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis
+                    tenetur facere
                     dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum asperiores,
                     aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia possimus
@@ -19,15 +21,16 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="text-align: center; display: flex;
-align-items: center; justify-content: center">
-        <div class="row ">
-            <a href="{% url 'products' %}?category=Logo" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+    <div class="container-fluid" style=" display: flex; align-items: center; justify-content: center">
+        <div class="row" style="justify-content: center">
+            <a href="{% url 'products' %}?category=Logo"
+                class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
                 <strong>
                     <p class="p-font" style="padding-top: 90px;">LOGO DESIGN</p>
                 </strong>
             </a>
-            <a href="{% url 'products' %}?category=Cards" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
+            <a href="{% url 'products' %}?category=Cards"
+                class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background">
                 <strong>
                     <p class="p-font" style="padding-top: 90px;">BUSINESS CARDS</p>
                 </strong>
@@ -38,10 +41,8 @@ align-items: center; justify-content: center">
                 </strong>
             </a>
         </div>
-
     </div>
-</div>
 
 
 
-{% endblock %}
+    {% endblock %}

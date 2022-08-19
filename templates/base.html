@@ -57,7 +57,8 @@
       <div class="col-12">
         <ul class="list-inline list-unstyled text-center text-lg-right my-0">
           <li class="list-inline-item dropdown">
-            <a class="text-black nav-link dropdown" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="text-black nav-link dropdown" href="#" id="user-options" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               <div class="text-center">
                 <div><i class="fas fa-user top-icon" style="color: white;"></i></div>
                 <p class="top-icon">ACCOUNT</p>
@@ -114,8 +115,8 @@
         aria-controls="offcanvasNavbar" aria-label="navigation-toggle-button">
         <span class="navbar-toggler-icon burger"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" style="text-align: right; padding-right: 40px;" tabindex="-1" id="offcanvasNavbar"
-        aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas offcanvas-end text-bg-dark" style="text-align: right; padding-right: 40px;" tabindex="-1"
+        id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
@@ -167,82 +168,59 @@
   {% block content %}
   {% endblock %}
 
-  <div class="container-fluid" style="background-color: black;">
-
+  <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0);">
     <footer class="text-center text-white">
+      <div class="container">
+        <div class="row text-center d-flex justify-content-center pt-5 foot-link-row">
+          <div class="col-md-2 link-nav">
+            <h6 class="foot-link">
+              <a href="{% url 'home' %}">HOME</a>
+            </h6>
+          </div>
 
-      <div>
-        <section class="text-center mb-5" style="padding-top: 70px; font-size: 20px;">
-          <a href="https://www.facebook.com/MillerCreativeDesign" target="_blank" class="text-white me-4"
-            style="margin-right: 40px;">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/millercreativedesign/" target="_blank" class="text-white me-4"
-            style="margin-left: 40px;">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </section>
+          <div class="col-md-2 link-nav">
+            <h6 class="foot-link">
+              <a href="{% url 'shop' %}">SHOP</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2 link-nav">
+            <h6 class="foot-link">
+              <a href="#!">CONTACT</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2 link-nav">
+            <h6 class="foot-link">
+              <a href="#!">ACCOUNT</a>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" style="background-color: black;">
+        <div class="row" style="padding: 30px 0;">
+          <div class="col-10 foot-link" style="font-size: 10px; text-align: left;">
+            © <script>
+              document.write(new Date().getFullYear())
+            </script> Copyright:
+            <a class="text-white" href="/">Miller Creative</a>
+          </div>
+          <div class="col-1">
+            <a href="https://www.facebook.com/MillerCreativeDesign" target="_blank" class="text-white">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="https://www.instagram.com/millercreativedesign/" target="_blank" class="text-white">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
       </div>
 
-      <div class="container">
-        <section class="mt-5">
-          <div class="row text-center d-flex justify-content-center pt-5 foot-link-row">
-            <div class="col-md-2">
-              <h6 class="foot-link">
-                <a href="{% url 'home' %}">HOME</a>
-              </h6>
-            </div>
-
-            <div class="col-md-2">
-              <h6 class="foot-link">
-                <a href="{% url 'shop' %}">SHOP</a>
-              </h6>
-            </div>
-
-            <div class="col-md-2">
-              <h6 class="foot-link">
-                <a href="#!">CONTACT</a>
-              </h6>
-            </div>
-
-            <div class="col-md-2">
-              <h6 class="foot-link">
-                <a href="#!">ACCOUNT</a>
-              </h6>
-            </div>
-          </div>
-        </section>
-
-        <section class="mb-5">
-          <div class="row d-flex justify-content-center foot-para">
-            <div class="col-lg-8" style="border: 1px solid grey; padding: 30px; line-height: 30px;">
-              <p>
-                <strong>Miller Creative</strong>
-                <br>
-                Auchterarder | Perthshire | Scotland | PH3 1AJ
-                <br>
-                Tel: 07709045938
-                <br>
-                Email: info@millercreativedesign.com
-
-              </p>
-            </div>
-          </div>
-        </section>
-
-
-        <!-- Copyright -->
-        <div class="text-center p-3 foot-link" style="background-color: rgba(0, 0, 0, 0.2)">
-          © <script>
-            document.write(new Date().getFullYear())
-          </script> Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">Miller Creative</a>
-        </div>
-        <!-- Copyright -->
     </footer>
-    <!-- Footer -->
   </div>
-  <!-- End of .container -->
+
 
 
   {% block postloadjs %}
