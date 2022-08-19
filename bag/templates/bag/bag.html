@@ -7,10 +7,10 @@
 <div class="bag-background">
     <div class="container" style="padding-top: 150px; max-width: 1050px;">
         <div class="row" style="padding: 40px 0; background-color: rgba(0, 0, 0, 0.8);">
-            <div class="container mb-2" style="padding-top: 150px;">
+            <div class="container mb-2" style="padding-top: 100px;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="logo-font mb-4">Shopping Bag</h2>
+                        <h4 class="mb-4">Shopping Bag</h4>
                         <hr>
                     </div>
                 </div>
@@ -18,10 +18,65 @@
                 <div class="row">
                     <div class="col">
                         {% if bag_items %}
-                        <div class="table-responsive rounded"></div>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-borderless">
+                                <thead class="" style="color: white;">
+                                    <tr>
+                                        <th scope="col">Product Info</th>
+                                        <th scope="col"></th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Qty</th>
+                                        <th scope="col">Subtotal</th>
+                                    </tr>
+                                </thead>
+
+                                {% for item in bag_items %}
+                                <tr>
+                                    <td class="p-3 w-25">
+                                        <img class="img-fluid" src="{{ item.product.image.url }}">
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                        <p class="my-0 small">SKU: {{ item.product.sku|upper }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">${{ item.product.price }}</p>
+                                    </td>
+                                    <td class="py-3 w-25">
+                                        <p class="my-0">{{ item.quantity }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">${{ item.product.price }}</p>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                                <tr>
+                                    <td colspan="5" class="pt-5 text-right">
+                                        <h4 class="mt-4 mb-4 text-white" style="font-size: 16px;"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong>
+                                        </h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="text-right">
+                                        <a href="{% url 'shop' %}" class="btn text-white border-white" style="font-size: 12px;">
+                                            <span class="icon">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </span>
+                                            <span class="text-uppercase">Keep Shopping</span>
+                                        </a>
+                                        <a href="" class="btn text-white border-white" style="font-size: 12px;">
+                                            <span class="text-uppercase">Secure Checkout</span>
+                                            <span class="icon">
+                                                <i class="fas fa-lock"></i>
+                                            </span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                         {% else %}
                         <p class="lead mb-5">Your bag is empty.</p>
-                        <a href="{% url 'products' %}" class="btn btn-outline-white rounded-0 btn-lg">
+                        <a href="{% url 'shop' %}" class="btn btn-outline-white btn-lg">
                             <span class="icon">
                                 <i class="fas fa-chevron-left"></i>
                             </span>
