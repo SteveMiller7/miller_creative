@@ -14,7 +14,7 @@ body {
     color: white;
     font-size: 12px;
     max-width: 1000px;
-    text-align: center;    
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -33,7 +33,6 @@ a {
 h6,
 a:hover {
     color: #808080;
-    font-weight: bold;
 }
 
 .top-bar {
@@ -115,6 +114,18 @@ a:hover {
 
 .header-sub {
     font-size: 10px;
+}
+
+/* Shop now button css */
+
+.shop-button {
+    position: relative;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid white;
 }
 
 .spacer {
@@ -230,7 +241,7 @@ a:hover {
 .link-nav {
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
-    margin:20px;
+    margin: 20px;
 }
 
 

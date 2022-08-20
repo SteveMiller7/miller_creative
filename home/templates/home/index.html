@@ -11,7 +11,7 @@
             <p><strong>Affordable<br>Graphic<br>Design</strong></p>
             <p class="header-desc">MAKING IT SIMPLE FOR EVERYONE</p>
             <p class="header-sub">PERTHSHIRE | SCOTLAND</p>
-
+            <a href="{% url 'shop' %}" class="shop-button">SHOP ESSENTIALS</a>
         </div>
         <div class="col cover-image" style="font-size: 100px; color: white; height: 100vh;">
         </div>
@@ -42,7 +42,7 @@
     </div>
     <div class="row about-row-two">
 
-        <div class="about-body" style="letter-spacing: 2;">
+        <div class="about-body">
             <p>Offering simple, down to earth graphic design service is what we are all about at Miller Creative.
                 We work closely with a variety of local business in and around Perthshire to bring their ideas and
                 vision to life.
@@ -74,51 +74,58 @@
 <div class="parallax">
 </div>
 
-<div class="container-fluid" style="font-family: 'Open Sans', sans-serif;"">
+<div class="container-fluid" style="font-family: 'Open Sans', sans-serif;">
     <div class=" row featured-title">
-    <p>
-        FEATURED WORK
-    </p>
-</div>
+        <p>
+            FEATURED WORK
+        </p>
+    </div>
 
-<hr>
+    <hr>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-1 col-lg-4">
-            <div class="feature-div">
-                <img src="https://res.cloudinary.com/millermayhem/image/upload/v1660393676/Miller%20Creative%20Site/strathearn_wood_onkfev.png"
-                    alt="Strathearn food company logo link" class="feature-image">
-                <a href="https://m.facebook.com/Strathearn-Food-at-Auchterarder-Golf-Club-113213974611785/" target="_blank"><div class="feature-overlay">
-                    <div class="feature-text"><strong>Strathearn Food Company</strong></div>
-                    <div class="feature-text" style="font-size: 10px; top: 65%;">Catering, Auchterarder</div>
-                </div></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1 col-lg-4">
+                <div class="feature-div">
+                    <img src="https://res.cloudinary.com/millermayhem/image/upload/v1660393676/Miller%20Creative%20Site/strathearn_wood_onkfev.png"
+                        alt="Strathearn food company logo link" class="feature-image">
+                    <a href="https://m.facebook.com/Strathearn-Food-at-Auchterarder-Golf-Club-113213974611785/"
+                        target="_blank">
+                        <div class="feature-overlay">
+                            <div class="feature-text"><strong>Strathearn Food Company</strong></div>
+                            <div class="feature-text" style="font-size: 10px; top: 65%;">Catering, Auchterarder</div>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="col-xs-1 col-lg-4">
-            <div class="feature-div">
-                <img src="https://res.cloudinary.com/millermayhem/image/upload/v1660229377/Miller%20Creative%20Site/Artboard_1_eeqlhf.png"
-                    alt="Avatar" class="feature-image">
-                <a href="https://blossomkind.co.uk/" target="_blank"><div class="feature-overlay">
-                    <div class="feature-text"><strong>Blossom Kind</strong></div>
-                    <div class="feature-text" style="font-size: 10px; top: 65%;">Toy Sales, Auchterarder</div>
-                </div></a>
+            <div class="col-xs-1 col-lg-4">
+                <div class="feature-div">
+                    <img src="https://res.cloudinary.com/millermayhem/image/upload/v1660229377/Miller%20Creative%20Site/Artboard_1_eeqlhf.png"
+                        alt="Avatar" class="feature-image">
+                    <a href="https://blossomkind.co.uk/" target="_blank">
+                        <div class="feature-overlay">
+                            <div class="feature-text"><strong>Blossom Kind</strong></div>
+                            <div class="feature-text" style="font-size: 10px; top: 65%;">Toy Sales, Auchterarder</div>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="col-xs-1 col-lg-4">
-            <div class="feature-div">
-                <img src="https://res.cloudinary.com/millermayhem/image/upload/v1660230465/Miller%20Creative%20Site/Artboard_1_l8tqsh.png"
-                    alt="Avatar" class="feature-image">
-                <a href="https://www.facebook.com/copperblushbeautyIR/" target="_blank"><div class="feature-overlay">
-                    <div class="feature-text"><strong>Copper Blush</strong></div>
-                    <div class="feature-text" style="font-size: 10px; top: 65%;">Beauty Salon, Crieff</div>
-                </div></a>
+            <div class="col-xs-1 col-lg-4">
+                <div class="feature-div">
+                    <img src="https://res.cloudinary.com/millermayhem/image/upload/v1660230465/Miller%20Creative%20Site/Artboard_1_l8tqsh.png"
+                        alt="Avatar" class="feature-image">
+                    <a href="https://www.facebook.com/copperblushbeautyIR/" target="_blank">
+                        <div class="feature-overlay">
+                            <div class="feature-text"><strong>Copper Blush</strong></div>
+                            <div class="feature-text" style="font-size: 10px; top: 65%;">Beauty Salon, Crieff</div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<hr>
+    <hr>
 
 
-{% endblock %}
+    {% endblock %}
