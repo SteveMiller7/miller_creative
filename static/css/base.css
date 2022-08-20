@@ -2,12 +2,25 @@ html {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: rgba(0, 0, 0, 1);
     letter-spacing: 3px;
 }
+
+.update-link:hover {
+    color: #808080;
+}
+
+.btn-link .update-link .remove-item {
+    cursor: pointer;
+    text-decoration: none;
+ }
 
 .p-font {
     font-family: 'Open Sans', sans-serif;
@@ -20,20 +33,10 @@ body {
 }
 
 
-P {
+p {
     color: white;
 }
 
-h6,
-a {
-    text-decoration: none;
-    color: white;
-}
-
-h6,
-a:hover {
-    color: #808080;
-}
 
 .top-bar {
     background-color: rgba(0, 0, 0, 1);
@@ -238,11 +241,6 @@ a:hover {
     text-align: center;
 }
 
-.link-nav {
-    background-color: rgba(0, 0, 0, 1);
-    padding: 20px;
-    margin: 20px;
-}
 
 
 .foot-link-row {
@@ -250,11 +248,23 @@ a:hover {
 }
 
 .foot-link {
+    background-color: rgba(0, 0, 0, 1);
     font-size: 12px;
     font-weight: 100;
-    padding-top: 10px;
     color: white;
+    text-decoration: none;
 }
+
+
+.foot-link:hover {
+    color: #808080;
+}
+
+.foot-nav {
+    padding: 20px;
+    margin: 20px;
+}
+
 
 .foot-para {
     font-size: 12px;
@@ -308,6 +318,7 @@ a:hover {
     background-size: cover;
     overflow: hidden;
 }
+
 
 
 /* MEDIA QUERIES */
