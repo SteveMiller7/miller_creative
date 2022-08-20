@@ -7,11 +7,13 @@
 
 
 <div class="shop-background">
+    <div style="background-image: linear-gradient(to right, rgba(0,0,0,0.7) , rgba(0,0,0,0));"></div>
     <div class="container" style="padding-top: 150px; max-width: 1050px;">
         <div class="row" style="padding-top: 50px; justify-content: center;">
             {% for product in products %}
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                <div class="card-dark mb-4" style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8);">
+                <div class="card-dark mb-4"
+                    style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8);">
                     {% if product.image %}
                     <a href="{% url 'product_detail' product.id %}">
                         <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -24,7 +26,7 @@
                     <div class="card-body mt-5">
                         <p class="mb-0">{{ product.name }}</p>
                     </div>
-                  
+
                 </div>
             </div>
 
@@ -33,5 +35,6 @@
     </div>
 
 
-{% endblock %}
+    {% endblock %}
+</div>
 </div>

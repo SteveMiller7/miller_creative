@@ -13,14 +13,16 @@ body {
     letter-spacing: 3px;
 }
 
-.update-link:hover {
-    color: #808080;
-}
-
 .btn-link .update-link .remove-item {
+    margin-top: 20px;
     cursor: pointer;
     text-decoration: none;
+    color: #808080;
  }
+
+ .update-link:hover {
+    color: #808080;
+}
 
 .p-font {
     font-family: 'Open Sans', sans-serif;
@@ -128,7 +130,8 @@ p {
     padding: 0 20px;
     border-radius: 3px;
     text-decoration: none;
-    border: 1px solid white;
+    border: 0.5px solid white;
+    color: white;
 }
 
 .spacer {

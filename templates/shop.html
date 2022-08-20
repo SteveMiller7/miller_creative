@@ -7,44 +7,52 @@
 </div>
 
 <div class="shop-background">
-    <div class="container" style="padding-top: 150px; max-width: 1050px;">
-        <div class="row" style="padding: 40px 0; background-color: black;">
-            <div class="col-12 text-center">
-                <h3>DESIGN AND PRINT WEB SHOP</h3>
-                <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati, nobis
-                    tenetur facere
-                    dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum asperiores,
-                    aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia possimus
-                </p>
+    <div style="background-image: linear-gradient(to right, rgba(0,0,0,0.7) , rgba(0,0,0,0));">
+        <div class="container" style="padding-top: 150px; max-width: 1050px;">
+            <div class="row" style="padding: 40px 0; background-color: black;">
+                <div class="col-12 text-center">
+                    <h3>DESIGN AND PRINT WEB SHOP</h3>
+                    <p class="p-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis obcaecati,
+                        nobis
+                        tenetur facere
+                        dolorem voluptate, laudantium explicabo voluptatem aliquid aspernatur dignissimos ipsum
+                        asperiores,
+                        aperiam in sapiente ad accusamus exercitationem! Lorem ipsum dolor sit amet, consectetur
+                        adipisicing
+                        elit. Adipisci inventore, recusandae nostrum dolorem repellat pariatur quibusdam mollitia
+                        possimus
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid" style=" display: flex; align-items: center; justify-content: center">
-        <div class="row" style="justify-content: center">
-            <a href="{% url 'products' %}?category=Logo"
-                class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background"
-                style="border: white solid;">
-                <strong>
-                    <p class="p-font" style="padding-top: 90px;">LOGO DESIGN</p>
-                </strong>
-            </a>
-            <a href="{% url 'products' %}?category=Cards"
-                class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background"
-                style="border: white solid;">
-                <strong>
-                    <p class="p-font" style="padding-top: 90px;">BUSINESS CARDS</p>
-                </strong>
-            </a>
-            <a href="{% url 'flyers' %}" class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background"
-                style="border: white solid;">
-                <strong>
-                    <p class="p-font" style="padding-top: 90px;">FLYERS</p>
-                </strong>
-            </a>
+        <div class="container-fluid" style=" display: flex; align-items: center; justify-content: center">
+            <div class="row" style="justify-content: center">
+                <a href="{% url 'products' %}?category=Logo"
+                    class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background"
+                    style="border: white 0.5px solid;">
+                    <strong>
+                        <p class="p-font" style="padding-top: 90px;">LOGO DESIGN</p>
+                    </strong>
+                </a>
+                <a href="{% url 'products' %}?category=Cards"
+                    class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background"
+                    style="border: white 0.5px solid;">
+                    <strong>
+                        <p class="p-font" style="padding-top: 90px;">BUSINESS CARDS</p>
+                    </strong>
+                </a>
+                <a href="{% url 'flyers' %}"
+                    class="col-sm-12 col-md-6 col-lg-4 col-xl-4 shop-category opacity-background"
+                    style="border: white 0.5px solid;">
+                    <strong>
+                        <p class="p-font" style="padding-top: 90px;">FLYERS</p>
+                    </strong>
+                </a>
+            </div>
         </div>
+
+
+
+        {% endblock %}
     </div>
-
-
-
-    {% endblock %}
+</div>
