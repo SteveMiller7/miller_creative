@@ -89,7 +89,7 @@
                   {% else %}
                   $0.00
                   {% endif %}
-                </p> 
+                </p>
               </div>
             </a>
           </li>
@@ -171,29 +171,19 @@
     <footer class="text-center text-white">
       <div class="container">
         <div class="row text-center d-flex justify-content-center pt-5 foot-link-row">
-          <div class="col-md-2 link-nav opacity-background">
-            <h6 class="foot-link">
-              <a href="{% url 'home' %}">HOME</a>
-            </h6>
-          </div>
-
-          <div class="col-md-2 link-nav opacity-background">
-            <h6 class="foot-link">
-              <a href="{% url 'shop' %}">SHOP</a>
-            </h6>
-          </div>
-
-          <div class="col-md-2 link-nav opacity-background">
-            <h6 class="foot-link">
-              <a href="#!">CONTACT</a>
-            </h6>
-          </div>
-
-          <div class="col-md-2 link-nav opacity-background">
-            <h6 class="foot-link">
-              <a href="#!">ACCOUNT</a>
-            </h6>
-          </div>
+          <a href="{% url 'home' %}" class="col-md-2 link-nav opacity-background">
+            <h6 class="foot-link">HOME</h6>
+          </a>
+          <a href="{% url 'shop' %}" class="col-md-2 link-nav opacity-background">
+            <h6 class="foot-link">SHOP</h6>
+          </a>
+          <a href="#" class="col-md-2 link-nav opacity-background">
+            <h6 class="foot-link">CONTACT</h6>
+          </a>
+          <a href="#" class="col-md-2 link-nav opacity-background">
+            <h6 class="foot-link">ACCOUNT</h6>
+          </a>
+        
         </div>
       </div>
       <div class="container-fluid" style="background-color: black;">
