@@ -26,19 +26,12 @@ body {
 
 .p-font {
     font-family: 'Open Sans', sans-serif;
-    color: white;
     font-size: 12px;
     max-width: 1000px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-p {
-    color: white;
-}
-
 
 .top-bar {
     background-color: rgba(0, 0, 0, 1);
@@ -128,10 +121,16 @@ p {
     font-size: 14px;
     display: inline-block;
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 0px;
     text-decoration: none;
-    border: 0.5px solid white;
+    color: black;
+    transition: .9s ease;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.shop-button:hover {
     color: white;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .spacer {
@@ -181,8 +180,7 @@ p {
 }
 
 .about-para-box {
-    padding-top: 60px;
-
+    padding: 60px 15px 0 15px;
 }
 
 .parallax {
@@ -256,11 +254,16 @@ p {
     font-weight: 100;
     color: white;
     text-decoration: none;
+    transition: .6s ease;
+
 }
 
 
 .foot-link:hover {
-    color: #808080;
+    color: black;
+    background-color: rgba(255, 255, 255, .5);
+
+    
 }
 
 .foot-nav {
@@ -274,14 +277,34 @@ p {
     font-weight: 100;
 }
 
-.shop-category {
+/* Socials effect */
 
+.icon {
+    color: white;
+    font-size: 18px;
+    transition: .8s ease;
+
+}
+
+.icon:hover {
+    color: #B9BD86;
+}
+
+.shop-category {
+    color: white;
     height: 200px;
     width: 300px;
     margin: 40px;
     margin-top: 90px;
     text-align: center;
+    transition: .6s ease;
 }
+
+.shop-category:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, .5);
+}
+
 
 .product-text {
     text-align: left;
