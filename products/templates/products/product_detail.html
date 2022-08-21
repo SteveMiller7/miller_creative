@@ -88,4 +88,19 @@
 
 {% block postloadjs %}
 {% include 'products/includes/quantity_input_script.html' %}
+
+<script type="text/javascript">
+    $('.toast').toast('show');
+  </script>
+
+  <script>
+    window.onscroll = function () {
+      scrollRotate();
+    };
+
+    function scrollRotate() {
+      let image = document.getElementById("spin-logo");
+      image.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+    }
+  </script>
 {% endblock %}
