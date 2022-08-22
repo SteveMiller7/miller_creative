@@ -18,7 +18,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row text-white">
                             <div class="col">
                                 {% if bag_items %}
                                 <div class="table-responsive">
@@ -39,11 +39,11 @@
                                                 <img class="img-fluid" src="{{ item.product.image.url }}">
                                             </td>
                                             <td class="py-3">
-                                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                                                <p class="my-0 small">SKU: {{ item.product.sku|upper }}</p>
+                                                <p class="my-0 text-white"><strong>{{ item.product.name }}</strong></p>
+                                                <p class="my-0 text-white small">SKU: {{ item.product.sku|upper }}</p>
                                             </td>
                                             <td class="py-3">
-                                                <p class="my-0">${{ item.product.price }}</p>
+                                                <p class="my-0 text-white">${{ item.product.price }}</p>
                                             </td>
                                             <td class="py-3 w-25">
                                                 <form class="form update-form" method="POST"
@@ -84,7 +84,7 @@
                                                     id="remove_{{ item.item_id }}"><small>Remove</small></a>
                                             </td>
                                             <td class="py-3">
-                                                <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}
+                                                <p class="my-0 text-white">${{ item.product.price | calc_subtotal:item.quantity }}
                                                 </p>
                                             </td>
                                         </tr>
