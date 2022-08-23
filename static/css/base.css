@@ -9,8 +9,9 @@ a {
 body {
     font-family: 'Open Sans', sans-serif;
     color: white;
+    font-weight: 100px;
     background-color: rgba(0, 0, 0, 1);
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .btn-link .update-link .remove-item {
