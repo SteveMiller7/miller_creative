@@ -33,6 +33,10 @@ body {
     margin-right: auto;
 }
 
+.header-container {
+    padding-top: 200px;
+}
+
 .top-bar {
     background-color: rgba(0, 0, 0, 1);
     color: white;
