@@ -185,13 +185,13 @@ body {
 }
 
 .about-para-box {
-    padding: 60px 15px 0 15px;
+    padding: 100px 15px 0 15px;
 }
 
 .parallax {
 
     background-image: url("https://res.cloudinary.com/millermayhem/image/upload/v1660312325/Miller%20Creative%20Site/logo_board_ezudpz.png");
-    min-height: 300px;
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -247,8 +247,6 @@ body {
     text-align: center;
 }
 
-
-
 .foot-link-row {
     padding-bottom: 70px;
 }
@@ -263,10 +261,9 @@ body {
 
 }
 
-
 .foot-link:hover {
     color: black;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .8);
 
     
 }
@@ -307,7 +304,7 @@ body {
 
 .shop-category:hover {
     color: black;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .8);
 }
 
 
