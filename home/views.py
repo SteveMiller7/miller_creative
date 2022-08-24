@@ -10,12 +10,7 @@ class FeaturedWork(generic.ListView):
     # The View function for featured work page of site
     model = FeaturedCompany
     template_name = 'featured_work.html'
-"""
-class Featured(generic.ListView):
-    model = FeaturedPicture()
-    template_name = 'featured_work.html'
-"""
-
+    
 class ShopDesc(generic.ListView):
     model = ShopDescription
     template_name = 'shop.html'

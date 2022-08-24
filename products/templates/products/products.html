@@ -13,21 +13,27 @@
                 {% for product in products %}
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                     <div class="card-dark mb-4"
-                        style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8);">
+                        style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8); border: white solid 0.5px;">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
                             <img class="card-img-top img-fluid card_image_box" src="{{ product.image.url }}"
                                 alt="{{ product.name }}">
+
+                            <div class="card-body mt-5 text-white">
+                                <p class="mb-2">{{ product.name }}</p>
+                            </div>
                         </a>
                         {% else %}
                         <a href="{% url 'product_detail' product.id %}">
                             <img class="card-img-top img-fluid card_image_box"
                                 src="{{ MEDIA_URL }}No_image_placeholder-01.png" alt="{{ product.name }}">
+
+                            <div class="card-body mt-5 text-white">
+                                <p class="mb-2">{{ product.name }}</p>
+                            </div>
                         </a>
                         {% endif %}
-                        <div class="card-body mt-5">
-                            <p class="mb-2">{{ product.name }}</p>
-                        </div>
+
                         {% if request.user.is_superuser %}
                         <small class="ml-3">
                             <a class="text-white" href="{% url 'edit_product' product.id %}">Edit</a> |

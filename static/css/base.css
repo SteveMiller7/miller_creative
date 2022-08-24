@@ -3,7 +3,7 @@ html {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     font-weight: 100px;
     background-color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .btn-link .update-link .remove-item {
@@ -137,19 +138,20 @@ body {
 .shop-button:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
 }
 
 .spacer {
     width: 100%;
-    height: 300px;
+    color: black !important;
+    background-color:  white;
 }
 
 .spacer div {
-    color: white;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
-    padding-top: 130px;
+    padding: 70px 0;
     line-height: 30px;
     margin: 0 10px;
 }
@@ -158,12 +160,13 @@ body {
     text-align: center;
     color: white;
     height: 80px;
-    margin-top: 100px;
+    margin-top: 80px;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .about-row-one-image {
+    margin-top: 100px;
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660378486/Miller%20Creative%20Site/graphic_designer_muj0gz.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +206,7 @@ body {
 
 .featured-title {
     height: 140px;
-    padding-top: 70px;
+    padding-top: 55px;
     text-align: center;
 }
 
@@ -257,6 +260,7 @@ body {
     font-size: 12px;
     font-weight: 100;
     color: white;
+    border: 0.5px solid;
     text-decoration: none;
     transition: .6s ease;
 
@@ -300,6 +304,7 @@ body {
     margin: 40px;
     margin-top: 90px;
     text-align: center;
+    border: white 0.5px solid;
     transition: .6s ease;
 }
 
@@ -313,13 +318,15 @@ body {
     text-align: left;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .product-desc {
     font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 100px;
     font-size: 11px;
     color: white;
+    text-align: justify;
 
 }
 
@@ -357,19 +364,21 @@ body {
     overflow: hidden;
 }
 
+/* ------------------------------- bootstrap toasts */
+
 .message-container {
-    position: fixed;
-    top: 72px;
-    right: 15px;
-    z-index: 9999999999999999999;
+    position: fixed !important;  
+    top: 72px !important;
+    right: 15px !important;
+    z-index: 9999999999999999999 !important;
 }
 
 .custom-toast {
-    overflow: visible;
+    overflow: visible !important;
 }
 
 .toast-capper {
-    height: 2px;
+    height: 2px !important;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -476,7 +485,35 @@ body {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #B9BD86; /* text-info */
+}
+
+/* Product Form */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #dc3545;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0;
 }
 
 
@@ -502,6 +539,8 @@ body {
     .header-title {
         font-size: 35px;
     }
+
+    
 
     .spin-wrapper {
         position: fixed;
@@ -544,8 +583,6 @@ body {
 
     .burger {
         background-color: black;
-        padding: 15px;
-        margin: 15px;
     }
 
     .col-break {
