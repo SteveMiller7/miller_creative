@@ -85,7 +85,7 @@ body {
 }
 
 .nav-text {
-    color: white !important;
+    color: white
     font-size: 12px;
     padding-top: 20px;
 }
@@ -316,7 +316,9 @@ body {
 }
 
 .product-desc {
-    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
     color: white;
 
 }
