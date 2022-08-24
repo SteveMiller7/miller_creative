@@ -16,11 +16,11 @@
                         style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8);">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid card_image_box" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
                         {% else %}
                         <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                            <img class="card-img-top img-fluid card_image_box" src="{{ MEDIA_URL }}No_image_placeholder-01.png"
                                 alt="{{ product.name }}">
                         </a>
                         {% endif %}

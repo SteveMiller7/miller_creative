@@ -136,7 +136,7 @@ body {
 
 .shop-button:hover {
     color: white;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .spacer {
@@ -264,7 +264,7 @@ body {
 
 .foot-link:hover {
     color: black;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .9);
 
     
 }
@@ -339,6 +339,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
+}
+
+.card_image_box {
+    height: 180px;
+    object-fit: cover;
     overflow: hidden;
 }
 

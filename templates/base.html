@@ -23,7 +23,7 @@
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/base.css' %}">
-  
+
   {% endblock %}
 
   {% block extra_css %}
@@ -70,23 +70,22 @@
                 <p class="top-icon text-white">ACCOUNT</p>
               </div>
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="user-options">
+            <div class="dropdown-menu" style="font-size: 13px; border-radius: 0px;" aria-labelledby="user-options">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
-              <a href="" class="dropdown-item">Product Management</a>
+              <a href="{% url 'add_product' %}" class="dropdown-item">PRODUCT MANAGEMENT</a>
               {% endif %}
-              <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-              <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+              <a href="{% url 'profile' %}" class="dropdown-item">MY PROFILE</a>
+              <a href="{% url 'account_logout' %}" class="dropdown-item">LOGOUT</a>
               {% else %}
-              <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-              <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+              <a href="{% url 'account_signup' %}" class="dropdown-item">REGISTER</a>
+              <a href="{% url 'account_login' %}" class="dropdown-item">LOGIN</a>
               {% endif %}
             </div>
           </li>
 
           <li class="list-inline-item">
-            <a class="nav-link"
-              href="{% url 'view_bag' %}">
+            <a class="nav-link" href="{% url 'view_bag' %}">
               <div class="text-center">
                 <div><i class="fas fa-cart-shopping top-icon" style="color: white;"></i></div>
                 <p class="my-0 top-icon" style="color: white;">
@@ -144,6 +143,9 @@
               <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT</a>
             </li>
             {% if user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <a href="{% url 'add_product' %}" class="dropdown-item">PRODUCT MANAGEMENT</a>
+            {% endif %}
             <li class="nav-item">
               <a href="{% url 'profile' %}" class="dropdown-item nav-text">MY ACCOUNT</a>
             </li>
