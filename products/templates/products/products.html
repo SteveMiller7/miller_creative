@@ -16,17 +16,24 @@
                         style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8);">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid card_image_box" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid card_image_box" src="{{ product.image.url }}"
+                                alt="{{ product.name }}">
                         </a>
                         {% else %}
                         <a href="{% url 'product_detail' product.id %}">
-                            <img class="card-img-top img-fluid card_image_box" src="{{ MEDIA_URL }}No_image_placeholder-01.png"
-                                alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid card_image_box"
+                                src="{{ MEDIA_URL }}No_image_placeholder-01.png" alt="{{ product.name }}">
                         </a>
                         {% endif %}
                         <div class="card-body mt-5">
-                            <p class="mb-0">{{ product.name }}</p>
+                            <p class="mb-2">{{ product.name }}</p>
                         </div>
+                        {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a class="text-white" href="{% url 'edit_product' product.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete Item</a>
+                        </small>
+                        {% endif %}
 
                     </div>
                 </div>
