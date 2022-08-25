@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'stripe',
     'profiles',
+    'contact',
 ]
 
 MIDDLEWARE = [
@@ -105,6 +106,7 @@ AUTHENTICATION_BACKENDS = [
 SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True

@@ -142,7 +142,7 @@
               <a class="nav-link active nav-text off-canv" aria-current="page" href="{% url 'featured' %}">FEATURED WORK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-text off-canv" aria-current="page" href="#">CONTACT</a>
+              <a class="nav-link active nav-text off-canv" aria-current="page" href="{% url 'contact' %}">CONTACT</a>
             </li>
             {% if user.is_authenticated %}
             {% if request.user.is_superuser %}
