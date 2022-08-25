@@ -271,21 +271,17 @@ body {
     border: 0.5px solid;
     text-decoration: none;
     transition: .6s ease;
-
 }
 
 .foot-link:hover {
     color: black;
     background-color: rgba(255, 255, 255, .9);
-
-    
 }
 
 .foot-nav {
     padding: 20px;
     margin: 20px;
 }
-
 
 .foot-para {
     font-size: 12px;
