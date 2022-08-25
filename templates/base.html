@@ -118,7 +118,7 @@
 
   <div class="navbar navbar-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" style="color: white; margin-top:10px" href="#"></a>
+      <a class="navbar-brand"  href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="navigation-toggle-button">
         <span class="navbar-toggler-icon burger"></span>
@@ -133,33 +133,33 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="{% url 'home' %}">HOME</a>
+              <a class="nav-link active nav-text off-canv" aria-current="page" href="{% url 'home' %}">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="{% url 'shop' %}">SHOP</a>
+              <a class="nav-link active nav-text off-canv" aria-current="page" href="{% url 'shop' %}">SHOP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="{% url 'featured' %}">FEATURED WORK</a>
+              <a class="nav-link active nav-text off-canv" aria-current="page" href="{% url 'featured' %}">FEATURED WORK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-text" aria-current="page" href="#">CONTACT</a>
+              <a class="nav-link active nav-text off-canv" aria-current="page" href="#">CONTACT</a>
             </li>
             {% if user.is_authenticated %}
             {% if request.user.is_superuser %}
-            <a href="{% url 'add_product' %}" class="dropdown-item">PRODUCT MANAGEMENT</a>
+            <a href="{% url 'add_product' %}" class="dropdown-item nav-text off-canv">PRODUCT MANAGEMENT</a>
             {% endif %}
             <li class="nav-item">
-              <a href="{% url 'profile' %}" class="dropdown-item nav-text">MY ACCOUNT</a>
+              <a href="{% url 'profile' %}" class="dropdown-item nav-text off-canv">MY ACCOUNT</a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'account_logout' %}" class="dropdown-item nav-text">LOGOUT</a>
+              <a href="{% url 'account_logout' %}" class="dropdown-item nav-text off-canv">LOGOUT</a>
             </li>
             {% else %}
             <li class="nav-item">
-              <a href="{% url 'account_signup' %}" class="dropdown-item nav-text">REGISTER</a>
+              <a href="{% url 'account_signup' %}" class="dropdown-item nav-text off-canv">REGISTER</a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'account_login' %}" class="dropdown-item nav-text">LOGIN</a>
+              <a href="{% url 'account_login' %}" class="dropdown-item nav-text off-canv">LOGIN</a>
             </li>
             {% endif %}
           </ul>

@@ -86,9 +86,17 @@ body {
 }
 
 .nav-text {
-    color: white
+    color: white;
     font-size: 12px;
     padding-top: 20px;
+}
+
+.off-canv {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-text:hover {
+    color: #B9BD86 !important;
 }
 
 
