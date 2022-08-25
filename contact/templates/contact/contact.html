@@ -3,30 +3,24 @@
 {% load bag_tools %}
 
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
+{% block content %}
+<div class="contact-background">
+    <div class="container" style="max-width: 800px; padding: 60px; background-color: rgba(0, 0, 0, 0.7);margin-top: 150px;">
+        <div>
+            <h2>CONTACT US</h2>
+            <hr>
+            <h4 style="margin-bottom: 40px;">Contact us directly if you have any questions</h4>
+            <p style="margin-bottom: 40px;">
+                Please write your name, email address and a message below if you have any questions.
+                We will be happy to contact you directly and answer your questions as soon as possible.
+            </p>
+            <form method="post">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit" class="btn-sm btn-light rounded-0">SEND ENQUIRY</button>
+            </form>
         </div>
     </div>
-{% endblock %}
 
-{% block content %}
-<div class="container" style="max-width: 1050px;">
-<div style="margin:80px">
-    <h2>CONTACT US</h2>
-    <hr>
-    <h4>Contact us directly if you have any questions</h4>
-    <p>
-        Please write your name, email address and a message below if you have any questions.
-        We will be happy to contact you directly and answer your questions as soon as possible. 
-    </p>
-    <form method="post">
-    {% csrf_token %}
-        {{form.as_p}}
-        <button type="submit">Submit</button>
-    </form>
+    {% endblock %}
 </div>
-</div>
-
-{% endblock %}

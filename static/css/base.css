@@ -372,6 +372,14 @@ body {
     overflow: hidden;
 }
 
+.contact-background {
+    background-image: url(https://res.cloudinary.com/millermayhem/image/upload/v1661448471/Miller%20Creative%20Site/contact_us_image_f0cwwf.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
