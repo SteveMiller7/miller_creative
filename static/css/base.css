@@ -263,6 +263,29 @@ body {
     text-align: center;
 }
 
+.contact-box {
+    height: 300px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-content: center;
+    margin-top: 100px;
+}
+
+.contact-button {
+    
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.contact-button:hover {
+    background-color: #B9BD86;
+    border: white 0.5px solid;
+    color: white;
+}
+
 .foot-link-row {
     padding-bottom: 70px;
 }
