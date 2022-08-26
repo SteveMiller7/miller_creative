@@ -54,12 +54,12 @@
   {% block extra_js %}
   {% endblock %}
 
-  <title>Miller Creative {% block extra_title %}{% endblock %}</title>
+  <title>Miller Creative Graphic Design Perthshire</title>
 </head>
 
 <body>
 
-
+  <!-- Top nav-->
   <div class="container-fluid fixed-top">
     <div class="row top-bar">
       <div class="col-12">
@@ -106,12 +106,11 @@
     </div>
   </div>
 
-
   <div class="spin-wrapper">
     <div class="spin-div">
       <a href="{% url 'home' %}"><img id="spin-logo"
           src="https://res.cloudinary.com/millermayhem/image/upload/v1660318136/Miller%20Creative%20Site/spinning_logo_qogcu4.png"
-          alt="spinning miller logo"></a>
+          alt="spinning miller creative logo"></a>
     </div>
   </div>
 
@@ -169,14 +168,13 @@
     </div>
   </div>
 
-
-
-
   {% block page_header %}
   {% endblock %}
 
   {% block content %}
   {% endblock %}
+
+  <!-- Bottom Page Links and footer -->
 
   <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0);">
     <footer class="text-center text-white">
@@ -217,6 +215,8 @@
       </div>
     </div>
   </div>
+  
+<!-- Messages -->
 
   {% if messages %}
   <div class="message-container">
