@@ -373,8 +373,9 @@ body {
 
 .shop-background {
     text-align: center;
-    background-image: url(https://res.cloudinary.com/millermayhem/image/upload/v1660895587/Miller%20Creative%20Site/pencils-BW_eqnwdt.jpg);
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660312325/Miller%20Creative%20Site/logo_board_ezudpz.png');
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
@@ -387,7 +388,7 @@ body {
 }
 
 .bag-background {
-    background-image: url(https://res.cloudinary.com/millermayhem/image/upload/v1660927200/Miller%20Creative%20Site/paper-bag_i24t5b.jpg);
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660927200/Miller%20Creative%20Site/paper-bag_i24t5b.jpg');
     background-repeat: no-repeat;
     background-position: 0 -350px;
     background-attachment: fixed;
@@ -396,7 +397,7 @@ body {
 }
 
 .contact-background {
-    background-image: url(https://res.cloudinary.com/millermayhem/image/upload/v1661448471/Miller%20Creative%20Site/contact_us_image_f0cwwf.png);
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1661448471/Miller%20Creative%20Site/contact_us_image_f0cwwf.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
