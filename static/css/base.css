@@ -204,6 +204,14 @@ body {
     padding: 100px 15px 0 15px;
 }
 
+.contact-small {
+    background-image: url("https://res.cloudinary.com/millermayhem/image/upload/v1661448471/Miller%20Creative%20Site/contact_us_image_f0cwwf.png");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .parallax {
 
     background-image: url("https://res.cloudinary.com/millermayhem/image/upload/v1660312325/Miller%20Creative%20Site/logo_board_ezudpz.png");
@@ -606,20 +614,24 @@ body {
     }
 }
 
+@media only screen and (min-width: 600px) {
+
+    .contact-small {
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     .header-title {
         font-size: 35px;
     }
 
-    
-
     .spin-wrapper {
         position: fixed;
         top: 10px;
         left: 10px;
         z-index: 999999;
-
     }
 
     #spin-logo {

@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="row about-row-two">
-        <div class="about-body">
+        <div class="about-body" style="padding: 45px 15px;">
             <p>Offering simple, down to earth graphic design service is what we are all about at Miller Creative.
                 We work closely with a variety of local business in and around Perthshire to bring their ideas and
                 vision to life.
@@ -120,7 +120,23 @@
 
     <hr>
 
-    <!-- parallax footer image-->
+<!-- Contact for small screens -->
+
+<div class="contact-small">
+    <div class="container-fluid">
+        <div class="row" style="justify-content: center; padding: 0 15px;">
+            <div class="col-8 contact-box" style="text-align: center; padding: 30px 15px;">
+                <h3 style="margin-top: 20px;">CONTACT US</h3>
+                <hr>
+                <p style="margin: 40px 0;">To make an enquiry please fill out or contact form adn we will get back to you.</p>
+                <a href="{% url 'contact' %}" class="contact-button">CONTACT</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- parallax and contact for other screens-->
 
     <div class="parallax">
         <div class="container-fluid">
