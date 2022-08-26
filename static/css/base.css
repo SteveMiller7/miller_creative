@@ -404,6 +404,34 @@ body {
     overflow: hidden;
 }
 
+.featured-background {
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1660895587/Miller%20Creative%20Site/pencils-BW_eqnwdt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* -----------Featured work */
+
+.gallery {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.image-container {
+    position: relative;
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

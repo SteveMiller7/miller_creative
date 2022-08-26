@@ -1,15 +1,21 @@
 from django.shortcuts import render
 from django.views import generic
-from .models import FeaturedCompany, ShopDescription, FlyerDescription
+from .models import FeaturedCompany, ShopDescription, FlyerDescription, Photo
 
 def Index(request):
     """ A view to return the index page """
     return render(request, 'home/index.html')
 
+class Inspiration(generic.ListView):
+    # The View function for featured work page of site
+    model = Photo
+    template_name = 'featured_work.html'
+"""
 class FeaturedWork(generic.ListView):
     # The View function for featured work page of site
     model = FeaturedCompany
     template_name = 'featured_work.html'
+"""
     
 class ShopDesc(generic.ListView):
     model = ShopDescription

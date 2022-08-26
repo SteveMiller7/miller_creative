@@ -3,7 +3,50 @@
 
 {% block content %}
 
-<div class="top-spacer">
-</div>
 
-{% endblock %}
+
+<div class="featured-background">
+    <div style="background-image: linear-gradient(to right, rgba(0,0,0,0.7) , rgba(0,0,0,0));">
+        <div>
+            <div class="container" style="padding-top: 150px; max-width: 1050px;">
+                <div class="row"
+                    style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8);">
+                    <div class="col">
+                        <h3>FEATURED WORK</h3>
+                    </div>
+                    <P>Below shows an example of work we have carried out in the past for companies.
+                    </P>
+                </div>
+            </div>
+
+            <div class="container" style="padding-top: 100px; max-width: 1050px;">
+                <div class="row"
+                    style="font-size: 14px; text-align: center; padding: 40px 20px; background-color: rgba(0, 0, 0, 0.8); justify-content: center; 
+                    ">
+                    {% for photo in photo_list %}
+                    <div class="card rounded-0" style="width: 18rem; border: white solid 0.5px; padding: 30px; margin: 20px;">
+                        {% if "placeholder" in photo.featured_image.url %}
+                        <div>
+                            <img class="card-img-top img-fluid card_image_box"
+                                src="https://res.cloudinary.com/millermayhem/image/upload/v1653982722/Gallery_Placeholder_rjvxg5.jpg"
+                                alt="">
+                        </div>
+                        {% else %}
+                        <div>
+                            <img class="card-img-top img-fluid card_image_box" src="{{ photo.featured_image.url }}"
+                                alt="{{ photo.name }}">
+                        </div>
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-transform: uppercase;">{{ photo.name }}</h5>
+                            <p class="card-text olive" style="text-transform: uppercase; font-size: 11px;">{{ photo.location}}</p>
+                            <p class="card-text">{{ photo.description }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+    </div>
+</div>

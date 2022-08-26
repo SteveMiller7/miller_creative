@@ -29,35 +29,3 @@ admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
 
 
-
-"""
-class CardsAdmin(admin.ModelAdmin):
-
-    list_display = (
-        'sku',
-        'name',
-        'description',
-        'quantity',
-        'laminate',
-        'price',
-        'image',
-    )
-
-    ordering = ('sku',)
-
-
-class FlyersAdmin(admin.ModelAdmin):
-
-    list_display = (
-        'sku',
-        'name',
-        'description',
-        'size',
-        'quantity',
-        'price',
-        'image',
-    )
-
-    ordering = ('sku',)
-
-    """
