@@ -155,17 +155,15 @@ body {
 
 .spacer {
     width: 100%;
-    color: black !important;
-    background-color:  white;
+    color: #B9BD86 !important;
+    background-color:  black;
 }
 
 .spacer div {
     font-weight: 100;
     font-size: 17px;
     text-align: center;
-    padding: 70px 0;
     line-height: 30px;
-    margin: 0 10px;
 }
 
 .about {
