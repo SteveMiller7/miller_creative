@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://miller-creative.herokuapp.com/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/shop/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/featured_work/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/contact/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/accounts/login/?next=/profile/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/?category=Logo</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/?category=Cards</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/flyer_sizes/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/accounts/signup/?next=%2Fprofile%2F</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/20/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/4/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/2/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/3/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/1/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/?category=FlyA5</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/?category=FlyA6</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/?category=Fly148x148</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/?category=FlyDL</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/accounts/login/?next=%2Fprofile%2F</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/6/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/9/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/7/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/5/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/8/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/11/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/10/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/14/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/12/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/13/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/21/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/27/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/26/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/22/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/28/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/19/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/17/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/18/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/16/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://miller-creative.herokuapp.com/products/15/</loc>
+  <lastmod>2022-08-28T18:59:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
