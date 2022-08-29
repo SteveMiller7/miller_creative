@@ -33,17 +33,22 @@ which look great.
   - Fonts
   - Images
 - [Features](#features)
-  - Navigation Bar
+  - Navigation Bar with Off Canvas
   - Header
-  - Information Section
-  - Thumbnail Images
-  - Owner Information
-  - Footer
-  - inspiration Gallery
-  - Prices
-  - User Authentication - Register, Login and Logout
-  - Make A Booking
-  - My Bookings
+  - Subscribe
+  - About
+  - Featured Companies
+  - Footer and links
+  - Featured Work Page
+  - Shop
+  - Product Detail
+  - Shopping Trolley
+  - Checkout
+  - Checkout Success
+  - Login / Register / Lougout / Forgot Email
+  - My Profile
+  - Product Management
+  - Messages
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   - Functionality Testing
