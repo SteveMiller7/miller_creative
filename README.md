@@ -324,3 +324,64 @@ When an item is added to the trolley a message appears which gives the user the 
 ![features-messages](https://res.cloudinary.com/millermayhem/image/upload/v1661795941/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.57.18_aa0ecp.png)
 ![features-messages](https://res.cloudinary.com/millermayhem/image/upload/v1661795941/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.56.34_eq4m6z.png)
 ![features-messages](https://res.cloudinary.com/millermayhem/image/upload/v1661795941/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.56.09_buzlnn.png)
+
+
+[Back to Table of Contents](#table-of-contents)
+
+***
+
+# Technologies Used
+
+## HTML 5
+- Structure Language
+
+## CSS
+- Styling Language
+
+## Bootstraps
+- Frontend frameworks
+
+## Django
+- Database framework
+
+## Javascript
+- Interactive elements
+
+## Google Fonts
+- As a font resource.
+
+## Font Awesome
+- Social media icons
+
+## Github
+- As a software hosting platform.
+
+## Gitpod
+- For code development.
+
+## Heroku
+- App Hosting platform
+
+## Postgres
+- Database
+
+## Adobe Illustrator
+- Logo creation
+- PNG and JPEG production
+- Wireframes
+
+## Photoshop
+- Screens mockup image
+
+## Cloudinary
+- Image hosting
+
+## Stripe
+- Online payments
+
+## Mailchimp
+-Subscriptions and promotions
+
+[Back to Table of Contents](#table-of-contents)
+
+***
