@@ -421,3 +421,19 @@ These actions helped bring up the scores.
 
 ![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661810434/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.58.42_tkyrna.png)
 
+### Product Detail
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661811781/Miller%20Creative%20Site/Screenshot_2022-08-29_at_23.15.23_zn1njr.png)
+
+The same changes were made ti image alts, titls and sizes.
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661811807/Miller%20Creative%20Site/Screenshot_2022-08-29_at_23.23.10_m50ukf.png)
+
+### Contact Page
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661812125/Miller%20Creative%20Site/Screenshot_2022-08-29_at_23.28.30_vpbkyi.png)
+
+Again the same changes were made to image size and title
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661812239/Miller%20Creative%20Site/Screenshot_2022-08-29_at_23.30.26_v77xsg.png)
+
