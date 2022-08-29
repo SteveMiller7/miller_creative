@@ -203,3 +203,17 @@ The subscribe section features a tag line and uses a mailchimp email form to col
 ![features-about](https://res.cloudinary.com/millermayhem/image/upload/v1661783714/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.34.55_bsko70.png)
 
 Information about the business is found here. It gives a quick overview of what we do.
+
+## Featured Companies
+
+![features-companies](https://res.cloudinary.com/millermayhem/image/upload/v1661784006/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.39.26_z8dznj.png)
+
+The featured comapnies section gives the user a preview of of some previous work. There is a button whcih takes you to the  fetaured work page.
+On larger screens, hovering over the company brings up the name and location of the business on an opacity overlay.
+Clicking on these companies will take you to their website or social media page.
+
+![features-contact-parallax](https://res.cloudinary.com/millermayhem/image/upload/v1661784236/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.43.36_khq7rr.png)
+
+On larger screens the parallax feature is present. Aparently this function isnt compatible on smaller screens so I replaced it with a background image.
+The button will take the user to the contact page when clicked. Here they will find a contact form which emails miller creative direct. 
+Users will also find the company phone number, email address and business address.
