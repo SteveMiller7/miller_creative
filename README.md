@@ -385,3 +385,22 @@ When an item is added to the trolley a message appears which gives the user the 
 [Back to Table of Contents](#table-of-contents)
 
 ***
+
+## Performance Testing
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_19.50.21_xtmvfb.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_19.56.16_rzsl2i.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_21.05.51_ioba65.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_20.44.59_blsnii.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_21.03.28_oqkdn6.png)
+
+Website functionality testing was done using Google Chrome Developer Tools Lighthouse.
+Improvements were made after testing the site build upon original completion.
+Issues first raised included missing alt attributes on images, missing titles, png image sizes too big so multiple files were changed to webp files.
+Originally the test result for performance was 95 but dropped to 93 after all of the improvements I made. 
+Signifiacnt improvements were made to Accessability which went from 85 to 100.
+SEO also went to 100 from 90.
+Best practices rised from 83 to 92.
+
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661807767/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.15.34_jjfxez.png)
