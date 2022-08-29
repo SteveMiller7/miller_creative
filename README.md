@@ -447,3 +447,9 @@ All shop functions and enquiry forms work well with emails being received where 
 
 Stripe payments are all being looged in payments section of their website.
 
+I had some issues when testing.
+The site has an off canvas, spinning logo, increment and decrement buttons and messages. I was finding a lot of issues with the version of jQuery I had 
+in the scripts. Not all of these would work at the same time. I finally managed to sort it but it took a lot of trial and error. 
+
+When I deployed the site to Heroku the order of my products got jumbled within their respective pages. Originally I have them in order of print quantity
+but that all changed in Heroku.
