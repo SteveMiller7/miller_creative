@@ -51,9 +51,9 @@ which look great.
   - Messages
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+  - Performance testing 
   - Functionality Testing
-  - Compaitibility Testing
-  - Performance testing
+  - Compatibility Testing
 - [Code Validation](#code-validation)
 - [Deployment](#deployment)
 - [Credits](#credits)
