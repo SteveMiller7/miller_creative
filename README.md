@@ -255,3 +255,27 @@ When the user isnt logged in they dont have the option to buy the products and t
 
 ![features-product-detail-logged-in](https://res.cloudinary.com/millermayhem/image/upload/v1661788002/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.44.44_dyfvcf.png)
 When the user is logged in the buttons appear to add a quantity and either add to bag, go back to shop or go to bag.
+
+## Shopping Trolley
+
+![features-trolley](https://res.cloudinary.com/millermayhem/image/upload/v1661789376/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.09.21_f2meoe.png)
+
+All the products added will appear in the shopping trolley. This can be access via the button on the product detail page or from the
+top nav.
+In here the user will be able to adjust quantities and update the trolley. They will also be able to remove products.
+The order total is shown and the user can eother go to the secure checkout or back to the shop. 
+
+## Checkout
+
+![features-checkout](https://res.cloudinary.com/millermayhem/image/upload/v1661789966/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.19.10_ms5kep.png)
+![features-checkout-details](https://res.cloudinary.com/millermayhem/image/upload/v1661789974/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.18.26_jsbirr.png)
+
+Here the user will be shown the order summary with the total price. No adjustments can be made here. 
+To proceed woth the order users will complete the information for name, address, phone number and credit card.
+to complete the order the button should be clicked or if they want to adjust the bag then that button should be clicked.
+
+## Checkout Success
+
+![features-checout-success](https://res.cloudinary.com/millermayhem/image/upload/v1661790249/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.23.54_sb2eke.png)
+
+The checkout success page details the order to the customer and offers a 'Back to shop" button.
