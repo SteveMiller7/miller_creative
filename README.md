@@ -467,3 +467,12 @@ Feedback on UX design, functionality and aesthetics was very positive from the o
 I tested the functionality myself using both knowledge of the code and via the deployed site. I found no functional issues myself but did have some future improvments in mind as detailed a little below.
 
 Future improvements would also include:
+
+- Addition of web design section and sales
+- log in with social media
+- Addition sales which would be items ready to buy and send. These would include posters, digital artwork, clothing
+
+The main thing I would change about the site is the shop section. When building it i wanted to have it al on a single page
+where the user could select various things from drop downs. These would include, paper size, paper thickness, laminate finish, print quantity and laminate finish.
+The total would then adjust to suit. I couldnt find a way to do this so I made a decision to do it the wy it is on this site.
+
