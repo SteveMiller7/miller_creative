@@ -154,4 +154,34 @@ Key features are as follows:
 ![features-Navbar-offcanvas](https://res.cloudinary.com/millermayhem/image/upload/v1661781865/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.01.31_zirf2v.png)
 ![features-Navbar-offcanvas_logged-in](https://res.cloudinary.com/millermayhem/image/upload/v1661781865/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.02.00_gnxa6y.png)
 
+The Navigation Bar is located at the top of each page and is consitent in style throughout the site. 
+
+A rotating business logo is placed to the left and will navigate you to the home page when clicked.
+The burger icon opens the off canvas content which contains navigation links around the site. 
+I decided to keep the nav bar fixed to the top of the viewport
+
+Links to each page are included for easy navigation to:
+- Home
+- Shop
+- Featured Work
+- Contact
+- Register
+- Login
+
+And when authenticated
+
+- Home
+- Shop
+- Featured Work
+- Contact
+- Product Management
+- My Account
+- Lougout
+
+![features-Navbar-account](https://res.cloudinary.com/millermayhem/image/upload/v1661782458/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.13.52_anhdh4.png)
+
+The 'Account' link appears in the middle of the navbar when the user isnt logged in. When clicked it presents a dropdown list with "Register' and 'Login' options.
+The shopping basket appears when the user is logged in as purchase can only be made when registered and logged in.
+
+![features-Navbar-account](https://res.cloudinary.com/millermayhem/image/upload/v1661782458/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.13.33_zchqka.png)
 
