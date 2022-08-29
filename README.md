@@ -89,3 +89,15 @@ I also want to collect web addresses to promote the business with offers and upd
 - 
 
 ***
+
+# Website Layout
+
+The wireframe layouts were created using Adobe Illustrator. 
+It has been desinged to be clean, slick, minimal, professional and as user friendly as possible with the use of simple site navigation links.
+Accessibility has been carefully considered with the use of cointrasting colours for borders and font colours. Alt text equivalents for the visually immpared have also been included. 
+The site is responsive for all screen sizes and tailored to suit each. The user experince will be smooth and satisfying accros all devices. 
+
+# Wireframes
+
+## Home Page
+![wireframe](https://res.cloudinary.com/millermayhem/image/upload/v1661778448/Miller%20Creative%20Site/Miller_WF_Master-01_zwfwpc.png)
