@@ -185,3 +185,21 @@ The shopping basket appears when the user is logged in as purchase can only be m
 
 ![features-Navbar-account](https://res.cloudinary.com/millermayhem/image/upload/v1661782458/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.13.33_zchqka.png)
 
+## Header
+
+![features-header](https://res.cloudinary.com/millermayhem/image/upload/v1661782781/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.19.07_nargsa.png)
+
+The header consists of a split screen layout with a title, information and a 'SHOP NOW' button on the left and a custom image I created on the right. 
+The image showcases another bit of my work.
+
+## Subscribe
+
+![features-subscribe](https://res.cloudinary.com/millermayhem/image/upload/v1661783502/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.28.47_voutan.png)
+
+The subscribe section features a tag line and uses a mailchimp email form to collect emaill address. Gathered email addresses will be used to promote deals and services.
+
+## About
+
+![features-about](https://res.cloudinary.com/millermayhem/image/upload/v1661783714/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.34.55_bsko70.png)
+
+Information about the business is found here. It gives a quick overview of what we do.
