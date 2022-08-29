@@ -388,6 +388,8 @@ When an item is added to the trolley a message appears which gives the user the 
 
 ## Performance Testing
 
+### Index
+
 ![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_19.50.21_xtmvfb.png)
 ![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_19.56.16_rzsl2i.png)
 ![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661806209/Miller%20Creative%20Site/Screenshot_2022-08-29_at_21.05.51_ioba65.png)
@@ -404,3 +406,18 @@ Best practices rised from 83 to 92.
 
 
 ![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661807767/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.15.34_jjfxez.png)
+
+### Featured Work
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661810380/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.22.16_qjqhd3.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661810433/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.22.33_nkole0.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661810434/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.25.12_jo1xwn.png)
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661810434/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.24.56_chvrw4.png)
+
+The main issues found on the featured work page was the image sizes being uploaded to the featured companies cards. I reformatted them all and 
+added them.
+I also added titles where needed.
+These actions helped bring up the scores.
+
+![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661810434/Miller%20Creative%20Site/Screenshot_2022-08-29_at_22.58.42_tkyrna.png)
+
