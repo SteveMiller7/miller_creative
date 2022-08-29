@@ -57,6 +57,7 @@ which look great.
 ***
 
 # Website Objectives
+
 The primary function of this website is to promote Miller Creative and boost awareness and sales.
 Presentation of essential information such as services, contact details, past work is also a big factor. The business has only been promoted through
 social media pages but now a more professional look can be portrayed.
@@ -108,6 +109,8 @@ the site to advertise my work.
 I wanted to add little aesthetically pleasing features to catch the eye so I included a rotating company logo in the top left of the site.
 I also included a parallax image in the index page and full background images around the diffefrent pages of the site.
 
+I really like the look of content opacity backgrounds over the top of background images so I have included this throughout.
+
 ## Colour Palette
 - Black
 - White
@@ -125,3 +128,30 @@ Custom images made up from my previos work were used for backgrounds, examples a
 One image that I used in a few places was my compliation of some past logos. I thought this was a good way to display my work as much as possible.
 
 [Back to Table of Contents](#table-of-contents)
+
+***
+
+# Features
+
+The website includes multiple pages
+
+- Home
+- Featured work
+- Shop
+- contact
+- Product details
+- login/lougout/register
+- Shopping trolley
+- Checkout
+- My account
+- Product management
+
+Key features are as follows:
+
+## Navigation Bar with Off Canvas
+
+![features-Navbar](https://res.cloudinary.com/millermayhem/image/upload/v1661781865/Miller%20Creative%20Site/Screenshot_2022-08-29_at_14.57.51_ydfbzi.png)
+![features-Navbar-offcanvas](https://res.cloudinary.com/millermayhem/image/upload/v1661781865/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.01.31_zirf2v.png)
+![features-Navbar-offcanvas_logged-in](https://res.cloudinary.com/millermayhem/image/upload/v1661781865/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.02.00_gnxa6y.png)
+
+
