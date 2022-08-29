@@ -229,7 +229,29 @@ The footer is very minimal and only contains the copyright and social media icon
 ## Featured work page
 
 ![features-featured-work](https://res.cloudinary.com/millermayhem/image/upload/v1661785539/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.05.16_cn8inl.png)
+![features-footer](https://res.cloudinary.com/millermayhem/image/upload/v1661785539/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.04.44_lsdccc.png)
 
 The 'Featured Work' page showcases some previous work that miller creative have done. The cards are generated in the admin panel and are arranged 
-in rows of 3.
+in rows of 3. At the top of the page is a heading on an opacity background box which overlaysa customised image from Adobe Stock.
 This page will be kept fresh and new work will be displayed with older work being removed.
+
+## Shop
+
+![features-shop](https://res.cloudinary.com/millermayhem/image/upload/v1661785935/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.11.52_ujy6ns.png)
+
+The shop page gives the user a some information on the online shop products. When clicked link will take you to the relevant page.
+
+![features-product-quantities](https://res.cloudinary.com/millermayhem/image/upload/v1661787439/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.37.05_n7oyjc.png)
+![features-Flyer-sizes](https://res.cloudinary.com/millermayhem/image/upload/v1661787607/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.39.52_rjeloh.png)
+![features-product-quantities](https://res.cloudinary.com/millermayhem/image/upload/v1661787695/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.41.19_rqn8gt.png)
+on these pages the user will be given the option to choose the print quantitiy they are looking for. Once selected and clicked they will
+be led to the product detail page.
+For flyers the user will be led to choose the size of flyer they want then on to the quantity.
+
+## Product Detail
+
+![features-product-detail-page](https://res.cloudinary.com/millermayhem/image/upload/v1661788001/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.43.06_t7guy5.png)
+When the user isnt logged in they dont have the option to buy the products and the page will look like above.
+
+![features-product-detail-logged-in](https://res.cloudinary.com/millermayhem/image/upload/v1661788002/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.44.44_dyfvcf.png)
+When the user is logged in the buttons appear to add a quantity and either add to bag, go back to shop or go to bag.
