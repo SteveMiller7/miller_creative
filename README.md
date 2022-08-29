@@ -291,3 +291,21 @@ The authentication pages are part of Allauth. They allow users to login, registe
 They have been styled to match the site.
 
 When registering the user will be asked to provide an email address, username and password. These will then be used for the log in process.
+
+## My Profile
+
+![features-myprofile](https://res.cloudinary.com/millermayhem/image/upload/v1661792511/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.00.42_q0nfii.png)
+
+My profile page allows you to store and update your personal information. 
+Another key feature of this page is the order history. This shows the user all of their previous orders. These can be clciked on to display the full informtion.
+
+## Product Management
+
+![features-product-management](https://res.cloudinary.com/millermayhem/image/upload/v1661792892/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.07.09_dg1x2v.png)
+![features-product-management](https://res.cloudinary.com/millermayhem/image/upload/v1661792892/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.07.20_w4phqa.png)
+
+As an admin user the ability to add, edit and remove products is available. 
+Products can be added via the product management page. When logged in as a user, edit and delete buttons appear at each product.
+
+![features-edit-delete](https://res.cloudinary.com/millermayhem/image/upload/v1661795361/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.11.16_cgjndp.png)
+![features-edit-delete](https://res.cloudinary.com/millermayhem/image/upload/v1661795361/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.11.27_yao294.png)
