@@ -217,3 +217,19 @@ Clicking on these companies will take you to their website or social media page.
 On larger screens the parallax feature is present. Aparently this function isnt compatible on smaller screens so I replaced it with a background image.
 The button will take the user to the contact page when clicked. Here they will find a contact form which emails miller creative direct. 
 Users will also find the company phone number, email address and business address.
+
+## Footer and page links
+
+![features-footer](https://res.cloudinary.com/millermayhem/image/upload/v1661785062/Miller%20Creative%20Site/Screenshot_2022-08-29_at_15.57.22_gjeogl.png)
+
+At the bottom of each page the user will find links to pages around the site including, home, shop, featured work, contact and account.
+
+The footer is very minimal and only contains the copyright and social media icons. This stripped back style fits in with the clean minimal style of the site.
+
+## Featured work page
+
+![features-featured-work](https://res.cloudinary.com/millermayhem/image/upload/v1661785539/Miller%20Creative%20Site/Screenshot_2022-08-29_at_16.05.16_cn8inl.png)
+
+The 'Featured Work' page showcases some previous work that miller creative have done. The cards are generated in the admin panel and are arranged 
+in rows of 3.
+This page will be kept fresh and new work will be displayed with older work being removed.
