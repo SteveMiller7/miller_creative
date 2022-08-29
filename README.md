@@ -437,3 +437,13 @@ Again the same changes were made to image size and title
 
 ![Lighthouse performance result](https://res.cloudinary.com/millermayhem/image/upload/v1661812239/Miller%20Creative%20Site/Screenshot_2022-08-29_at_23.30.26_v77xsg.png)
 
+## Manual Finctionality Testing
+
+Throughout the build manual function tests were carried out constantly to assess whether buttons, links, admin updates etc all worked. Trial and error got me to the results I was after.
+
+Forms were all tested repeatedly and checked against the admin databse records. 
+
+All shop functions and enquiry forms work well with emails being received where required. 
+
+Stripe payments are all being looged in payments section of their website.
+
