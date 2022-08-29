@@ -279,3 +279,15 @@ to complete the order the button should be clicked or if they want to adjust the
 ![features-checout-success](https://res.cloudinary.com/millermayhem/image/upload/v1661790249/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.23.54_sb2eke.png)
 
 The checkout success page details the order to the customer and offers a 'Back to shop" button.
+
+## Login / Register / Logout / Forgot Email
+
+![features-login](https://res.cloudinary.com/millermayhem/image/upload/v1661790587/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.26.58_rivsbd.png)
+![features-register](https://res.cloudinary.com/millermayhem/image/upload/v1661790588/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.27.22_ohwut1.png)
+![features-logout](https://res.cloudinary.com/millermayhem/image/upload/v1661790587/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.26.44_nfa94o.png)
+![features-forgot-password](https://res.cloudinary.com/millermayhem/image/upload/v1661790587/Miller%20Creative%20Site/Screenshot_2022-08-29_at_17.27.11_vdgaxm.png)
+
+The authentication pages are part of Allauth. They allow users to login, register for an account, logout and change their password. 
+They have been styled to match the site.
+
+When registering the user will be asked to provide an email address, username and password. These will then be used for the log in process.
