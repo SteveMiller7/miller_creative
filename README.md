@@ -453,3 +453,17 @@ in the scripts. Not all of these would work at the same time. I finally managed 
 
 When I deployed the site to Heroku the order of my products got jumbled within their respective pages. Originally I have them in order of print quantity
 but that all changed in Heroku.
+
+As the developer I thoroughly checked the infrastrcutre and every line of code during the build, when formatting code and when running through the 
+code validator. Changes were made where required, when required. All Inputs, links, updates, deletes, edits, navigations, external links, login, 
+logout, registers and backend additions were checked against output results and everything worked nicely by the end of the build. All bugs were 
+removed and all features work well. Information is passed to the database and everything syncs up and corresponds with each other. 
+
+Admin users can easliy create, edit and delete categories and products in the backend as well as add and remove featured work cards.
+
+As well as testing the deployed application myself on iMac, Macbook, iPad and iPhone, I invited 3 other people to perform functionality testing through whatever whatever digital media they had access to. 
+Feedback on UX design, functionality and aesthetics was very positive from the other people testing the site. 
+
+I tested the functionality myself using both knowledge of the code and via the deployed site. I found no functional issues myself but did have some future improvments in mind as detailed a little below.
+
+Future improvements would also include:
