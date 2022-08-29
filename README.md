@@ -28,9 +28,6 @@ which look great.
   - Returning User Advantages
 - [Website Layout](#website-layout)
 - [Wireframes](#wireframes)
-  - Home Page
-  - Gallery Page
-  - Contact Page
 - [Aesthetics](#aesthetics)
   - Colour Palette
   - Fonts
@@ -99,5 +96,32 @@ The site is responsive for all screen sizes and tailored to suit each. The user 
 
 # Wireframes
 
-## Home Page
 ![wireframe](https://res.cloudinary.com/millermayhem/image/upload/v1661778448/Miller%20Creative%20Site/Miller_WF_Master-01_zwfwpc.png)
+
+# Aesthetics
+
+The overall look of the site was created with the aim of being clean, slick, professional, modern and black.
+
+A black theme was chosen to match the brand styling of the bsuiness. I customised background images with photoshop and used customised mockups throughout 
+the site to advertise my work. 
+
+I wanted to add little aesthetically pleasing features to catch the eye so I included a rotating company logo in the top left of the site.
+I also included a parallax image in the index page and full background images around the diffefrent pages of the site.
+
+## Colour Palette
+- Black
+- White
+- Olive Hex #B9BD86
+
+## Fonts
+- Open Sans - Google Fonts
+
+## Images
+
+Adobe Stock licensed images were used for some backgrounds around the site.
+
+Custom images made up from my previos work were used for backgrounds, examples and placeholders.
+
+One image that I used in a few places was my compliation of some past logos. I thought this was a good way to display my work as much as possible.
+
+[Back to Table of Contents](#table-of-contents)
