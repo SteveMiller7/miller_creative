@@ -309,3 +309,13 @@ Products can be added via the product management page. When logged in as a user,
 
 ![features-edit-delete](https://res.cloudinary.com/millermayhem/image/upload/v1661795361/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.11.16_cgjndp.png)
 ![features-edit-delete](https://res.cloudinary.com/millermayhem/image/upload/v1661795361/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.11.27_yao294.png)
+
+## Messages
+
+The site is set up to display messages when certain actions take place. An example of this is when an item is added to the trolley or when the user signs in. 
+
+When an item is added to the trolley a message appears which gives the user the option to go to the checkout.
+
+![features-messages](https://res.cloudinary.com/millermayhem/image/upload/v1661795941/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.57.18_aa0ecp.png)
+![features-messages](https://res.cloudinary.com/millermayhem/image/upload/v1661795941/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.56.34_eq4m6z.png)
+![features-messages](https://res.cloudinary.com/millermayhem/image/upload/v1661795941/Miller%20Creative%20Site/Screenshot_2022-08-29_at_18.56.09_buzlnn.png)
