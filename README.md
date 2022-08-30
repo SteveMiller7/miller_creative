@@ -562,6 +562,11 @@ Ideas and coding guides:
 - Freepik.com
 - stock.adobe.com
 - tgocreative.co.uk
+- w3schools.com
+- codepen.io
+- mdboostrap.com
+- css-tricks.com
+- dev.to
 
 ## Content
 
