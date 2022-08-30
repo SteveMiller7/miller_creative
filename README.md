@@ -515,3 +515,74 @@ css errors flagged are shown below but I dont knoe what they are. Ive searched t
 ![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661844934/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.34.12_vvd309.png)
 
 All of the other css is fine when run through jigsaw.w3.org.
+
+[Back to Table of Contents](#table-of-contents)
+
+***
+
+# Deployment
+
+The project is deployed via Heroku. 
+
+I used Gitpod as a development environment where I commited all changes to git version control system. I used push command in Gitpod to save changes into GitHub.
+
+To deploy the project I had to connect my Github respitory to Heroku through the Heroku 'Deploy' page.
+All of the necessary config vars were created to allow the application to work.
+
+The site is published at https://miller-creative.herokuapp.com/ 
+
+To run localy:
+
+- Log in to GitHub and click on repository to download (miller_creative)
+- select `Code` and click Download the ZIP file.
+- after download you can extract the file and use it in your local environment
+
+Alternatively you can Clone or Fork this repository (miller_creative) into your github account.
+
+***
+
+# Credits
+
+Initital creation of the project was done using Code Institute student template: 
+- gitpod full template
+
+Ideas and coding guides:
+- www.w3schools.com
+- Diploma in Software Development (E-commerce Applications) from Code Institute.
+- 'Boutique Ado' Walkthrough via Code Institute
+- 'Love Running' Walkthrough via Code Institute
+- 'Bootstrap Resume' via Code Institute
+- Bad_Dog_Portfolio_1 done through Code Institute
+- P4-Hannahs_Nails portfolio project dont through Code Institute.
+- stackoverflow.com
+- geeksforgeeks.org
+- pypi.org
+- Slack Code Institute community
+- Ordinarycoders.com
+- Freepik.com
+- stock.adobe.com
+- tgocreative.co.uk
+
+## Content
+
+Information for this website was written by myself with reference to
+- en.wikipedia.org
+- tgocreative.co.uk
+
+## Images, Styling, Frameworks
+
+Licensed and royalty free images were taken from:
+- fontawesome.com
+- fonts.google.com
+- bootstrap.com
+- cloudinary.com
+- Adobe stock
+- Adobe Illustrator
+- Adobe Photoshop
+- django
+- django-crispyforms
+- django-allauth
+- Stripe
+- mailchimp
+
+[Back to Table of Contents](#table-of-contents)
