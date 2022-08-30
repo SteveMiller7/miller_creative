@@ -476,3 +476,25 @@ The main thing I would change about the site is the shop section. When building 
 where the user could select various things from drop downs. These would include, paper size, paper thickness, laminate finish, print quantity and laminate finish.
 The total would then adjust to suit. I couldnt find a way to do this so I made a decision to do it the wy it is on this site.
 
+## Compaitibility testing
+
+The site was tested on various devices including:
+- iPhone
+- Macbook Pro
+- iMac
+- iPad
+- I also tested responsiveness on Google Chrome Dev Tools. 
+
+## Code Validation
+
+### html
+
+Html code was checked using https://validator.w3.org/.
+
+There were some issues on index.html as shown below 
+
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661840097/Miller%20Creative%20Site/Screenshot_2022-08-30_at_07.12.47_cffxid.png)
+This issue was removed.
+
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661840341/Miller%20Creative%20Site/Screenshot_2022-08-30_at_07.18.28_z02dfi.png)
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661840341/Miller%20Creative%20Site/Screenshot_2022-08-30_at_07.18.45_pkjvw5.png)
