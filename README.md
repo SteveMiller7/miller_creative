@@ -503,6 +503,11 @@ This issue was removed.
 The errors and warnings below are all part of the mail chimp form and scripts within the post load js. I dont want to mess with them in case i cause issues with the funtionality. 
 ![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661843664/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.13.59_gvrej7.png)
 
+Im finding the same issues being raised with my pages where I've set the background to stay still while my content scrolls within it. Thisn is shown below. The elements are close but its outwith the blocked content.
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661846049/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.50.46_bfunyp.png)
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661846049/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.52.40_cuvxhs.png)
+
+
 ### css
 
 css errors flagged are shown below but I dont knoe what they are. Ive searched the site fr animation but i cant see it.
