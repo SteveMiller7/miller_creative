@@ -487,14 +487,26 @@ The site was tested on various devices including:
 
 ## Code Validation
 
+sites used
+- validator.w3.org
+- jigsaw.w3.org
+
 ### html
 
-Html code was checked using https://validator.w3.org/.
+Html code was checked using validator.w3.org
 
 There were some issues on index.html as shown below 
 
 ![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661840097/Miller%20Creative%20Site/Screenshot_2022-08-30_at_07.12.47_cffxid.png)
 This issue was removed.
 
-![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661840341/Miller%20Creative%20Site/Screenshot_2022-08-30_at_07.18.28_z02dfi.png)
-![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661840341/Miller%20Creative%20Site/Screenshot_2022-08-30_at_07.18.45_pkjvw5.png)
+The errors and warnings below are all part of the mail chimp form and scripts within the post load js. I dont want to mess with them in case i cause issues with the funtionality. 
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661843664/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.13.59_gvrej7.png)
+
+### css
+
+css errors flagged are shown below but I dont knoe what they are. Ive searched the site fr animation but i cant see it.
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661844934/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.33.58_phveel.png)
+![Code validation](https://res.cloudinary.com/millermayhem/image/upload/v1661844934/Miller%20Creative%20Site/Screenshot_2022-08-30_at_08.34.12_vvd309.png)
+
+All of the other css is fine when run through jigsaw.w3.org.
