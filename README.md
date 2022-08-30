@@ -54,6 +54,9 @@ which look great.
   - Performance testing 
   - Functionality Testing
   - Compatibility Testing
+- [SEO] (#seo)
+- [Marketing Techniques](#marketinmg-techniques)
+- [Business Model] (#business-model)
 - [Code Validation](#code-validation)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -484,6 +487,30 @@ The site was tested on various devices including:
 - iMac
 - iPad
 - I also tested responsiveness on Google Chrome Dev Tools. 
+
+## SEO
+
+As part of seo there were a few areas addressed.
+
+I included a robots.txt file along with sitemap.xml.
+Descriptive meta tags were used in the head.
+Images were give alts or titles.
+Score for seo were high on the chrome lighthouse reports.
+rel attributes were added to external links.
+
+## Marketing Techniques
+
+I have links to my social media accounts in the footer of every page. These include facebook and instagram.
+I included a mailchimp subscribe section to gather email addresses for future email marketing.
+
+## Business Model
+
+Miller Creative is a freelance graphic design business. The website will be used as a b2b ecommerce platform to offer sales of print media and design 
+services. Users will be able to create accounts to store their personal details and check on previous orders. We aim to target new startout
+businesses as well as those looking to refresh their brand.
+Starting in 2018 we have been focussing on print and design but will soon be offering web design services.
+We aim to be the best value for money design agency in Perthshire.
+
 
 ## Code Validation
 
